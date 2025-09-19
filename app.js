@@ -92,7 +92,13 @@ function computeAvgBei(rows) {
   const skuFileInput = document.getElementById('skuFile');
   const wtDTBKInput = document.getElementById('wtDTBK');
   const wtCompInput = document.getElementById('wtComp');
-  const wtBEIInput = document.getElementById('wtBEI');
+  // Weight BEI input was removed from the HTML. Provide a dummy element
+  // with a default value of zero so code referring to it won't error. This
+  // element will never be displayed and the BEI weight will effectively
+  // contribute nothing to the optimisation.  If an element with id
+  // "wtBEI" exists it will still be picked up here, otherwise a dummy
+  // object with a value of "0" is used.
+  const wtBEIInput = document.getElementById('wtBEI') || { value: 0 };
   const totalSkusInput = document.getElementById('totalSkusInput');
   const runBtn = document.getElementById('runBtn');
   const resultsDiv = document.getElementById('resultsDiv');
@@ -162,14 +168,19 @@ function computeAvgBei(rows) {
     updateOutputs();
   });
 
-  beiFileInput.addEventListener('change', async (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const text = await file.text();
-    const rows = parseCSV(text);
-    avgBeiMap = computeAvgBei(rows);
-    updateOutputs();
-  });
+  // No BEI file is needed when optimising category mix alone. We leave this
+  // listener in place only if the BEI file input exists (for backwards
+  // compatibility). If the element is not present, this block does nothing.
+  if (beiFileInput) {
+    beiFileInput.addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const text = await file.text();
+      const rows = parseCSV(text);
+      avgBeiMap = computeAvgBei(rows);
+      updateOutputs();
+    });
+  }
 
   skuFileInput.addEventListener('change', async (e) => {
     const file = e.target.files[0];
@@ -193,16 +204,17 @@ function computeAvgBei(rows) {
   });
 
   function updateOutputs() {
-    // Determine effective weights
+    // Determine effective weights. BEI weighting is ignored by forcing
+    // the BEI weight to zero. Only DTBK and Competitor weights are used
+    // when blending category mixes.
     const wDT = parseFloat(wtDTBKInput.value) || 0;
     const wCP = parseFloat(wtCompInput.value) || 0;
-    const wBE = parseFloat(wtBEIInput.value) || 0;
-    const weightSum = wDT + wCP + wBE;
+    const wBE = 0; // BEI is not used in the optimisation
+    const weightSum = wDT + wCP;
 
     // Use local copies of aggregated maps to avoid mutating originals
     const dtMap = aggregateMap(dtbkMap);
     const cpMap = aggregateMap(compMap);
-    const beiMap = aggregateMap(avgBeiMap);
     const skMap = aggregateMap(skuMap);
 
     // Compute totalSkus from input or derived
@@ -216,14 +228,13 @@ function computeAvgBei(rows) {
     const categories = Array.from(new Set([
       ...Object.keys(dtMap),
       ...Object.keys(cpMap),
-      ...Object.keys(beiMap),
       ...Object.keys(skMap)
     ]));
     const rows = categories.map(cat => {
       const dtVal = dtMap[cat] || 0;
       const cpVal = cpMap[cat] || 0;
-      const beiVal = beiMap[cat] || 0;
-      const optVal = weightSum > 0 ? ((wDT * dtVal + wCP * cpVal + wBE * beiVal) / weightSum) : 0;
+      // Compute optimised mix ignoring BEI. Use weighted average of DTBK and competitor only.
+      const optVal = weightSum > 0 ? ((wDT * dtVal + wCP * cpVal) / weightSum) : 0;
       const skVal = skMap[cat] || 0;
       const target = total > 0 ? (optVal * total / 100) : 0;
       const gap = target - skVal;
@@ -231,7 +242,6 @@ function computeAvgBei(rows) {
         Category: cat,
         dtbk: dtVal.toFixed(1),
         comp: cpVal.toFixed(1),
-        bei: beiVal ? beiVal.toFixed(1) : '0.0',
         opt: optVal.toFixed(1),
         skus: Math.round(skVal),
         target: Math.round(target),
@@ -243,11 +253,12 @@ function computeAvgBei(rows) {
   }
 
   function renderTable(rows) {
+    // Build a table without a BEI column. The optimiser now blends only DTBK and
+    // Competitor percentages, so the BEI column is omitted.
     let html = '<table><thead><tr>' +
       '<th>Category</th>' +
       '<th>DTBK %</th>' +
       '<th>Competitor %</th>' +
-      '<th>BEI</th>' +
       '<th>Optimised %</th>' +
       '<th>Current SKUs</th>' +
       '<th>Target SKUs</th>' +
@@ -258,7 +269,6 @@ function computeAvgBei(rows) {
         `<td>${row.Category}</td>` +
         `<td>${row.dtbk}</td>` +
         `<td>${row.comp}</td>` +
-        `<td>${row.bei}</td>` +
         `<td>${row.opt}</td>` +
         `<td>${row.skus}</td>` +
         `<td>${row.target}</td>` +
@@ -333,7 +343,7 @@ function computeAvgBei(rows) {
         if (preload.weights) {
           wtDTBKInput.value = preload.weights.dtbk !== undefined ? preload.weights.dtbk : wtDTBKInput.value;
           wtCompInput.value = preload.weights.comp !== undefined ? preload.weights.comp : wtCompInput.value;
-          wtBEIInput.value = preload.weights.bei !== undefined ? preload.weights.bei : wtBEIInput.value;
+          // BEI weight is no longer used. Ignore preload.weights.bei if present.
         }
       }
     } catch (err) {

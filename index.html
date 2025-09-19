@@ -16,10 +16,10 @@
   <!-- Controls section: allows overriding of defaults and tuning weights -->
   <section id="controls">
     <p>
-      The optimiser blends your own sales mix with market benchmarks and optional
-      brand strength to suggest an ideal category allocation. You can upload
-      files to override any of the default values pre‑loaded from the data
-      directory. Leave inputs blank to use the defaults.
+      The optimiser blends your own sales mix with market benchmarks to
+      suggest an ideal category allocation. You can upload files to override
+      any of the default values pre‑loaded from the data directory. Leave
+      inputs blank to use the defaults.
     </p>
     <div class="file-row">
       <label>DTBK % (CSV, columns: Category,DTBK_Pct)
@@ -29,11 +29,6 @@
     <div class="file-row">
       <label>Competitor % (JSON or CSV)
         <input type="file" id="compFile" accept=".json,.csv" />
-      </label>
-    </div>
-    <div class="file-row">
-      <label>Brand Strength (CSV, columns: Brand,Category,BSI)
-        <input type="file" id="beiFile" accept=".csv" />
       </label>
     </div>
     <div class="file-row">
@@ -48,9 +43,7 @@
       <label>Weight Competitor
         <input type="number" id="wtComp" step="0.01" value="0.4" />
       </label>
-      <label>Weight BEI
-        <input type="number" id="wtBEI" step="0.01" value="0.2" />
-      </label>
+      <!-- BEI weighting has been removed as it is no longer used -->
     </div>
     <div class="weights-row">
       <label>Total SKUs
