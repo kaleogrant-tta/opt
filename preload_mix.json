@@ -1,0 +1,36 @@
+{
+  "dtbk_sales_pct": {
+    "Flower": 35.7,
+    "Pre-Rolls": 28.0,
+    "Vapor Pens": 16.7,
+    "Edibles": 14.7,
+    "Beverages": 2.9,
+    "Concentrates": 1.2,
+    "Tinctures": 0.2,
+    "Topicals": 0.3
+  },
+  "competitor_pct": {
+    "Flower": 31.0,
+    "Pre-Rolls": 17.0,
+    "Edibles": 20.0,
+    "Vapor Pens": 25.0,
+    "Beverages": 2.0,
+    "Concentrates": 3.0,
+    "Tinctures": 1.0,
+    "Topicals": 1.0
+  },
+  "sku_counts": {
+    "Accessories": 168,
+    "Beverages": 41,
+    "CBD": 34,
+    "Concentrate": 22,
+    "Disposable": 127,
+    "Edibles": 187,
+    "Flower": 186,
+    "Pre-Rolls": 246,
+    "Tincture": 15,
+    "Topical": 8,
+    "Vape": 65
+  },
+  "total_skus": 1099
+}

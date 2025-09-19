@@ -1,0 +1,6592 @@
+{
+  "kpis": {
+    "total_revenue": 18650752.310000002,
+    "total_units": 523564.0,
+    "brand_count": 177,
+    "notes": "Monthly inventory used for Units Received (sum of 'Received'), On Hand (latest). Trend sparkline shows normalized On Hand (line) + Received (bars)."
+  },
+  "brands": [
+    {
+      "brand": "Ruby",
+      "revenue": 1227629.09,
+      "units_sold": 36320.0,
+      "transactions": 34552,
+      "revenue_share": 0.06582196093729582,
+      "unit_share": 0.06937069775614825,
+      "on_hand_units": 2676,
+      "units_received": 2804,
+      "sell_through_true": 1.030471542870113,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 35.52989957166011,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 2676,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-04",
+        "2025-05",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2676
+      ],
+      "monthly_received": [
+        360.0,
+        60.0,
+        260.0,
+        75.0,
+        30.0,
+        2019.0
+      ],
+      "performance_score": 90.39,
+      "customer_equity_score": 38.55,
+      "presence_score": 81.58,
+      "BSI": 72.2,
+      "data_flags": ""
+    },
+    {
+      "brand": "Ayrloom",
+      "revenue": 693150.61,
+      "units_sold": 37385.0,
+      "transactions": 28537,
+      "revenue_share": 0.037164753382540626,
+      "unit_share": 0.07140483302900887,
+      "on_hand_units": 1192,
+      "units_received": 3454,
+      "sell_through_true": 1.0927132961155117,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.289540245996424,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1192,
+      "months": [
+        "2024-05",
+        "2025-01",
+        "2025-02",
+        "2025-04",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1192
+      ],
+      "monthly_received": [
+        216.0,
+        346.0,
+        100.0,
+        160.0,
+        150.0,
+        492.0,
+        15.0,
+        1975.0
+      ],
+      "performance_score": 71.39,
+      "customer_equity_score": 37.43,
+      "presence_score": 100.0,
+      "BSI": 69.79,
+      "data_flags": ""
+    },
+    {
+      "brand": "Find.",
+      "revenue": 1292130.91,
+      "units_sold": 9747.0,
+      "transactions": 9668,
+      "revenue_share": 0.0692803640584083,
+      "unit_share": 0.01861663521556104,
+      "on_hand_units": 513,
+      "units_received": 3721,
+      "sell_through_true": 1.0733399405351833,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 133.65028030616466,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 513,
+      "months": [
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        513
+      ],
+      "monthly_received": [
+        30.0,
+        1204.0,
+        151.0,
+        257.0,
+        187.0,
+        769.0,
+        200.0,
+        173.0,
+        40.0,
+        710.0
+      ],
+      "performance_score": 72.13,
+      "customer_equity_score": 48.37,
+      "presence_score": 29.65,
+      "BSI": 52.26,
+      "data_flags": ""
+    },
+    {
+      "brand": "Off Hours",
+      "revenue": 806387.75,
+      "units_sold": 24002.0,
+      "transactions": 21826,
+      "revenue_share": 0.043236204985020246,
+      "unit_share": 0.04584348809314621,
+      "on_hand_units": 1010,
+      "units_received": 1854,
+      "sell_through_true": 1.090108093378145,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.946199486850546,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1010,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        1010
+      ],
+      "monthly_received": [
+        260.0,
+        60.0,
+        24.0,
+        1510.0
+      ],
+      "performance_score": 65.0,
+      "customer_equity_score": 38.69,
+      "presence_score": 47.71,
+      "BSI": 51.92,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rythm",
+      "revenue": 939317.17,
+      "units_sold": 17063.0,
+      "transactions": 16539,
+      "revenue_share": 0.05036350032359633,
+      "unit_share": 0.03259009404771909,
+      "on_hand_units": 492,
+      "units_received": 7452,
+      "sell_through_true": 0.9918618845550194,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 56.794072797629845,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 492,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        10,
+        492
+      ],
+      "monthly_received": [
+        635.0,
+        390.0,
+        530.0,
+        185.0,
+        1209.0,
+        923.0,
+        1066.0,
+        910.0,
+        1604.0
+      ],
+      "performance_score": 63.26,
+      "customer_equity_score": 40.68,
+      "presence_score": 39.84,
+      "BSI": 49.46,
+      "data_flags": ""
+    },
+    {
+      "brand": "dank. by definition",
+      "revenue": 899985.33,
+      "units_sold": 19037.0,
+      "transactions": 18003,
+      "revenue_share": 0.04825463954703068,
+      "unit_share": 0.036360406750655126,
+      "on_hand_units": 304,
+      "units_received": 10644,
+      "sell_through_true": 1.0383440602159921,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 49.99085319113481,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 304,
+      "months": [
+        "2024-08",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        135,
+        304
+      ],
+      "monthly_received": [
+        150.0,
+        2585.0,
+        410.0,
+        377.0,
+        499.0,
+        1200.0,
+        951.0,
+        1228.0,
+        1257.0,
+        1987.0
+      ],
+      "performance_score": 63.95,
+      "customer_equity_score": 40.0,
+      "presence_score": 39.39,
+      "BSI": 49.39,
+      "data_flags": ""
+    },
+    {
+      "brand": "Camino",
+      "revenue": 659591.08,
+      "units_sold": 22974.0,
+      "transactions": 20513,
+      "revenue_share": 0.035365387360076946,
+      "unit_share": 0.04388002230863849,
+      "on_hand_units": 1428,
+      "units_received": 1150,
+      "sell_through_true": 1.1044661314359887,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.154783795641784,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1428,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        1428
+      ],
+      "monthly_received": [
+        50.0,
+        1100.0
+      ],
+      "performance_score": 58.69,
+      "customer_equity_score": 38.22,
+      "presence_score": 44.87,
+      "BSI": 48.4,
+      "data_flags": ""
+    },
+    {
+      "brand": "Nanticoke",
+      "revenue": 363928.86,
+      "units_sold": 23669.0,
+      "transactions": 20924,
+      "revenue_share": 0.019512824681333186,
+      "unit_share": 0.04520746269797007,
+      "on_hand_units": 361,
+      "units_received": 2549,
+      "sell_through_true": 1.104737456242707,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 17.392891416555152,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 361,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        43,
+        361
+      ],
+      "monthly_received": [
+        24.0,
+        250.0,
+        1.0,
+        582.0,
+        270.0,
+        260.0,
+        1162.0
+      ],
+      "performance_score": 47.81,
+      "customer_equity_score": 36.74,
+      "presence_score": 40.71,
+      "BSI": 42.36,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rolling Green Cannabis",
+      "revenue": 604038.09,
+      "units_sold": 19573.0,
+      "transactions": 18528,
+      "revenue_share": 0.03238679491100913,
+      "unit_share": 0.037384159338686385,
+      "on_hand_units": 1048,
+      "units_received": 5793,
+      "sell_through_true": 1.0284798486679627,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.60136496113989,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1048,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1048
+      ],
+      "monthly_received": [
+        640.0,
+        128.0,
+        384.0,
+        320.0,
+        460.0,
+        512.0,
+        128.0,
+        336.0,
+        2885.0
+      ],
+      "performance_score": 52.79,
+      "customer_equity_score": 38.26,
+      "presence_score": 24.1,
+      "BSI": 39.82,
+      "data_flags": ""
+    },
+    {
+      "brand": "Fernway",
+      "revenue": 598348.18,
+      "units_sold": 9399.0,
+      "transactions": 9178,
+      "revenue_share": 0.0320817182092533,
+      "unit_share": 0.0179519600278094,
+      "on_hand_units": 660,
+      "units_received": 1277,
+      "sell_through_true": 1.0524017467248907,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 65.19374373501853,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 660,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        660
+      ],
+      "monthly_received": [
+        24.0,
+        120.0,
+        38.0,
+        122.0,
+        84.0,
+        130.0,
+        113.0,
+        646.0
+      ],
+      "performance_score": 44.73,
+      "customer_equity_score": 41.52,
+      "presence_score": 29.74,
+      "BSI": 39.27,
+      "data_flags": ""
+    },
+    {
+      "brand": "Hepworth",
+      "revenue": 550866.65,
+      "units_sold": 14508.0,
+      "transactions": 13952,
+      "revenue_share": 0.02953589436200067,
+      "unit_share": 0.027710079379025296,
+      "on_hand_units": 131,
+      "units_received": 2072,
+      "sell_through_true": 1.0283527076835839,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 39.48298810206422,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 131,
+      "months": [
+        "2024-05",
+        "2024-08",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        95,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        131
+      ],
+      "monthly_received": [
+        288.0,
+        160.0,
+        100.0,
+        217.0,
+        196.0,
+        50.0,
+        384.0,
+        185.0,
+        196.0,
+        296.0
+      ],
+      "performance_score": 46.67,
+      "customer_equity_score": 38.95,
+      "presence_score": 25.42,
+      "BSI": 37.98,
+      "data_flags": ""
+    },
+    {
+      "brand": "Jaunty",
+      "revenue": 549934.0,
+      "units_sold": 12812.0,
+      "transactions": 12034,
+      "revenue_share": 0.029485888336265184,
+      "unit_share": 0.024470742831821896,
+      "on_hand_units": 308,
+      "units_received": 750,
+      "sell_through_true": 1.0925215315084846,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 45.69835466179159,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 308,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        308
+      ],
+      "monthly_received": [
+        20.0,
+        100.0,
+        170.0,
+        460.0
+      ],
+      "performance_score": 46.13,
+      "customer_equity_score": 39.57,
+      "presence_score": 23.65,
+      "BSI": 37.42,
+      "data_flags": ""
+    },
+    {
+      "brand": "Gr\u00f6n",
+      "revenue": 302920.33,
+      "units_sold": 15792.0,
+      "transactions": 12475,
+      "revenue_share": 0.016241721779640103,
+      "unit_share": 0.030162501623488245,
+      "on_hand_units": 900,
+      "units_received": 1385,
+      "sell_through_true": 1.0374458021284982,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.282190781563127,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 900,
+      "months": [
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        900
+      ],
+      "monthly_received": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        50.0,
+        1215.0
+      ],
+      "performance_score": 38.23,
+      "customer_equity_score": 37.43,
+      "presence_score": 36.1,
+      "BSI": 37.35,
+      "data_flags": ""
+    },
+    {
+      "brand": "Wyld",
+      "revenue": 285367.29,
+      "units_sold": 11648.0,
+      "transactions": 10048,
+      "revenue_share": 0.015300577974379842,
+      "unit_share": 0.02224751892796296,
+      "on_hand_units": 1040,
+      "units_received": 962,
+      "sell_through_true": 1.025532664201444,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.40040704617834,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1040,
+      "months": [
+        "2025-02",
+        "2025-03",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        20,
+        0,
+        20,
+        1040
+      ],
+      "monthly_received": [
+        62.0,
+        20.0,
+        20.0,
+        100.0,
+        760.0
+      ],
+      "performance_score": 34.06,
+      "customer_equity_score": 37.84,
+      "presence_score": 36.26,
+      "BSI": 35.85,
+      "data_flags": ""
+    },
+    {
+      "brand": "LivWell",
+      "revenue": 270461.34,
+      "units_sold": 2003.0,
+      "transactions": 2000,
+      "revenue_share": 0.014501363564567117,
+      "unit_share": 0.003825702301915334,
+      "on_hand_units": 61,
+      "units_received": 774,
+      "sell_through_true": 1.089771490750816,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 135.23067,
+      "begin_on_hand_units": 19,
+      "end_on_hand_units": 61,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        19,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        61
+      ],
+      "monthly_received": [
+        516.0,
+        24.0,
+        24.0,
+        12.0,
+        36.0,
+        12.0,
+        18.0,
+        132.0
+      ],
+      "performance_score": 26.6,
+      "customer_equity_score": 48.52,
+      "presence_score": 22.52,
+      "BSI": 31.95,
+      "data_flags": ""
+    },
+    {
+      "brand": "Harney Brothers Cannabis",
+      "revenue": 260096.88,
+      "units_sold": 9510.0,
+      "transactions": 8729,
+      "revenue_share": 0.013945650860450463,
+      "unit_share": 0.01816396849286811,
+      "on_hand_units": 832,
+      "units_received": 1516,
+      "sell_through_true": 1.0199485199485199,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 29.796870202772368,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 832,
+      "months": [
+        "2025-02",
+        "2025-04",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        832
+      ],
+      "monthly_received": [
+        64.0,
+        20.0,
+        68.0,
+        420.0,
+        944.0
+      ],
+      "performance_score": 31.3,
+      "customer_equity_score": 37.98,
+      "presence_score": 25.29,
+      "BSI": 31.5,
+      "data_flags": ""
+    },
+    {
+      "brand": "Florist Farms",
+      "revenue": 312107.46,
+      "units_sold": 6945.0,
+      "transactions": 6562,
+      "revenue_share": 0.016734309416176037,
+      "unit_share": 0.013264853962457312,
+      "on_hand_units": 139,
+      "units_received": 893,
+      "sell_through_true": 1.1190783113116338,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 47.56285583663517,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 139,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-04",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        139
+      ],
+      "monthly_received": [
+        48.0,
+        48.0,
+        24.0,
+        48.0,
+        48.0,
+        390.0,
+        287.0
+      ],
+      "performance_score": 32.57,
+      "customer_equity_score": 39.76,
+      "presence_score": 20.32,
+      "BSI": 31.05,
+      "data_flags": ""
+    },
+    {
+      "brand": "PAX",
+      "revenue": 312001.63,
+      "units_sold": 4788.0,
+      "transactions": 4569,
+      "revenue_share": 0.016728635114236844,
+      "unit_share": 0.00914501379010016,
+      "on_hand_units": 158,
+      "units_received": 725,
+      "sell_through_true": 0.9781409601634321,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 68.28663383672576,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 158,
+      "months": [
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        5,
+        0,
+        158
+      ],
+      "monthly_received": [
+        24.0,
+        120.0,
+        35.0,
+        88.0,
+        58.0,
+        400.0
+      ],
+      "performance_score": 28.96,
+      "customer_equity_score": 41.83,
+      "presence_score": 19.65,
+      "BSI": 30.03,
+      "data_flags": ""
+    },
+    {
+      "brand": "Matter",
+      "revenue": 321544.06,
+      "units_sold": 3339.0,
+      "transactions": 3233,
+      "revenue_share": 0.01724027292065839,
+      "unit_share": 0.00637744382730669,
+      "on_hand_units": 535.0,
+      "units_received": 3529.0,
+      "sell_through_true": 0.9461603853782942,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 99.45686978038972,
+      "begin_on_hand_units": 535.0,
+      "end_on_hand_units": 535.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        535.0
+      ],
+      "monthly_received": [
+        3529.0
+      ],
+      "performance_score": 27.74,
+      "customer_equity_score": 44.95,
+      "presence_score": 17.26,
+      "BSI": 29.76,
+      "data_flags": ""
+    },
+    {
+      "brand": "Hudson Cannabis",
+      "revenue": 246976.64,
+      "units_sold": 7496.0,
+      "transactions": 6855,
+      "revenue_share": 0.013242181113926336,
+      "unit_share": 0.014317256343064076,
+      "on_hand_units": 344,
+      "units_received": 2818,
+      "sell_through_true": 1.0743872724666763,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.02868563092633,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 344,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        344
+      ],
+      "monthly_received": [
+        190.0,
+        300.0,
+        70.0,
+        180.0,
+        1120.0,
+        96.0,
+        130.0,
+        732.0
+      ],
+      "performance_score": 29.9,
+      "customer_equity_score": 38.6,
+      "presence_score": 19.87,
+      "BSI": 29.5,
+      "data_flags": ""
+    },
+    {
+      "brand": "MFNY",
+      "revenue": 271640.51,
+      "units_sold": 6856.0,
+      "transactions": 6490,
+      "revenue_share": 0.01456458728768566,
+      "unit_share": 0.013094865193176002,
+      "on_hand_units": 541,
+      "units_received": 2745,
+      "sell_through_true": 0.9767773187063684,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 41.855240369799695,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 541,
+      "months": [
+        "2024-08",
+        "2024-11",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        541
+      ],
+      "monthly_received": [
+        100.0,
+        10.0,
+        460.0,
+        120.0,
+        330.0,
+        100.0,
+        23.0,
+        465.0,
+        322.0,
+        815.0
+      ],
+      "performance_score": 29.04,
+      "customer_equity_score": 39.19,
+      "presence_score": 19.42,
+      "BSI": 29.2,
+      "data_flags": ""
+    },
+    {
+      "brand": "1906",
+      "revenue": 168668.82,
+      "units_sold": 6437.0,
+      "transactions": 5432,
+      "revenue_share": 0.009043539756279138,
+      "unit_share": 0.012294580987233652,
+      "on_hand_units": 264,
+      "units_received": 992,
+      "sell_through_true": 1.2436244204018547,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 31.050960972017673,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 264,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        264
+      ],
+      "monthly_received": [
+        200.0,
+        200.0,
+        110.0,
+        80.0,
+        402.0
+      ],
+      "performance_score": 28.27,
+      "customer_equity_score": 38.11,
+      "presence_score": 18.55,
+      "BSI": 28.31,
+      "data_flags": ""
+    },
+    {
+      "brand": "The Travel Agency",
+      "revenue": 91840.0,
+      "units_sold": 16876.0,
+      "transactions": 16007,
+      "revenue_share": 0.004924198148873491,
+      "unit_share": 0.03223292663361117,
+      "on_hand_units": 4565,
+      "units_received": 14613,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 5.737489848191416,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4565,
+      "months": [
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        728,
+        0,
+        0,
+        0,
+        4565
+      ],
+      "monthly_received": [
+        0.0,
+        960.0,
+        198.0,
+        35.0,
+        25.0,
+        13395.0
+      ],
+      "performance_score": 37.1,
+      "customer_equity_score": 35.57,
+      "presence_score": 8.84,
+      "BSI": 28.16,
+      "data_flags": ""
+    },
+    {
+      "brand": "Lost Farm",
+      "revenue": 213680.31,
+      "units_sold": 7993.0,
+      "transactions": 7320,
+      "revenue_share": 0.011456927122742964,
+      "unit_share": 0.015266519470399035,
+      "on_hand_units": 473,
+      "units_received": 900,
+      "sell_through_true": 1.0920890832080885,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 29.191299180327867,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 473,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        473
+      ],
+      "monthly_received": [
+        140.0,
+        140.0,
+        620.0
+      ],
+      "performance_score": 29.24,
+      "customer_equity_score": 37.92,
+      "presence_score": 14.13,
+      "BSI": 27.31,
+      "data_flags": ""
+    },
+    {
+      "brand": "Heavy Hitters",
+      "revenue": 211657.48,
+      "units_sold": 2825.0,
+      "transactions": 2733,
+      "revenue_share": 0.011348468763188459,
+      "unit_share": 0.00539571093505283,
+      "on_hand_units": 62,
+      "units_received": 872,
+      "sell_through_true": 1.0668429003021147,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 77.44510793999268,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 62,
+      "months": [
+        "2025-01",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        62
+      ],
+      "monthly_received": [
+        190.0,
+        40.0,
+        100.0,
+        64.0,
+        30.0,
+        30.0,
+        418.0
+      ],
+      "performance_score": 24.68,
+      "customer_equity_score": 42.74,
+      "presence_score": 14.81,
+      "BSI": 27.14,
+      "data_flags": ""
+    },
+    {
+      "brand": "Canna Cure Farms",
+      "revenue": 140596.07,
+      "units_sold": 12715.0,
+      "transactions": 11236,
+      "revenue_share": 0.007538359185898169,
+      "unit_share": 0.024285474173166986,
+      "on_hand_units": 241,
+      "units_received": 1494,
+      "sell_through_true": 1.0524790994123003,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 12.513000177999288,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 241,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        241
+      ],
+      "monthly_received": [
+        96.0,
+        64.0,
+        50.0,
+        14.0,
+        42.0,
+        2.0,
+        450.0,
+        776.0
+      ],
+      "performance_score": 29.68,
+      "customer_equity_score": 36.25,
+      "presence_score": 14.29,
+      "BSI": 27.03,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rove",
+      "revenue": 148098.63,
+      "units_sold": 2954.0,
+      "transactions": 2672,
+      "revenue_share": 0.007940624996697518,
+      "unit_share": 0.005642099151202146,
+      "on_hand_units": 244,
+      "units_received": 1029,
+      "sell_through_true": 1.0969179353880432,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 55.42613398203593,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 244,
+      "months": [
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        244
+      ],
+      "monthly_received": [
+        140.0,
+        119.0,
+        160.0,
+        50.0,
+        30.0,
+        140.0,
+        390.0
+      ],
+      "performance_score": 22.73,
+      "customer_equity_score": 40.54,
+      "presence_score": 18.58,
+      "BSI": 26.83,
+      "data_flags": ""
+    },
+    {
+      "brand": "Turn",
+      "revenue": 274444.98,
+      "units_sold": 4801.0,
+      "transactions": 4719,
+      "revenue_share": 0.014714954948645713,
+      "unit_share": 0.00916984361033226,
+      "on_hand_units": 338.0,
+      "units_received": 4705.0,
+      "sell_through_true": 1.020403825717322,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 58.157444373808005,
+      "begin_on_hand_units": 338.0,
+      "end_on_hand_units": 338.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        338.0
+      ],
+      "monthly_received": [
+        4705.0
+      ],
+      "performance_score": 28.08,
+      "customer_equity_score": 40.82,
+      "presence_score": 10.9,
+      "BSI": 26.75,
+      "data_flags": ""
+    },
+    {
+      "brand": "Edie Parker",
+      "revenue": 127209.62,
+      "units_sold": 3730.0,
+      "transactions": 3544,
+      "revenue_share": 0.006820616020501962,
+      "unit_share": 0.007124248420441436,
+      "on_hand_units": 3,
+      "units_received": 1016,
+      "sell_through_true": 1.1634435433562071,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 35.89436230248307,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        32,
+        3
+      ],
+      "monthly_received": [
+        455.0,
+        40.0,
+        35.0,
+        211.0,
+        122.0,
+        153.0
+      ],
+      "performance_score": 23.43,
+      "customer_equity_score": 38.59,
+      "presence_score": 17.48,
+      "BSI": 26.19,
+      "data_flags": ""
+    },
+    {
+      "brand": "Weekenders",
+      "revenue": 177122.54,
+      "units_sold": 5367.0,
+      "transactions": 5052,
+      "revenue_share": 0.009496804046077644,
+      "unit_share": 0.010250895783514527,
+      "on_hand_units": 98,
+      "units_received": 610,
+      "sell_through_true": 1.0411251212415131,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 35.05988519398258,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 98,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        98
+      ],
+      "monthly_received": [
+        125.0,
+        0.0,
+        50.0,
+        30.0,
+        100.0,
+        20.0,
+        60.0,
+        225.0
+      ],
+      "performance_score": 25.04,
+      "customer_equity_score": 38.51,
+      "presence_score": 13.9,
+      "BSI": 25.74,
+      "data_flags": ""
+    },
+    {
+      "brand": "Alchemy Pure",
+      "revenue": 178795.58,
+      "units_sold": 4148.0,
+      "transactions": 3973,
+      "revenue_share": 0.009586507666188612,
+      "unit_share": 0.007922622640212085,
+      "on_hand_units": 379,
+      "units_received": 1165,
+      "sell_through_true": 1.063044592516658,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 45.0026629750818,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 379,
+      "months": [
+        "2025-01",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        379
+      ],
+      "monthly_received": [
+        60.0,
+        80.0,
+        266.0,
+        180.0,
+        50.0,
+        20.0,
+        509.0
+      ],
+      "performance_score": 24.42,
+      "customer_equity_score": 39.5,
+      "presence_score": 12.87,
+      "BSI": 25.48,
+      "data_flags": ""
+    },
+    {
+      "brand": "Dogwalkers",
+      "revenue": 164225.27,
+      "units_sold": 6199.0,
+      "transactions": 5781,
+      "revenue_share": 0.008805289313286686,
+      "unit_share": 0.011840004278369025,
+      "on_hand_units": 208,
+      "units_received": 3214,
+      "sell_through_true": 1.0967799009200283,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.407761632935475,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 208,
+      "months": [
+        "2024-09",
+        "2024-11",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        208
+      ],
+      "monthly_received": [
+        75.0,
+        50.0,
+        550.0,
+        125.0,
+        224.0,
+        100.0,
+        485.0,
+        475.0,
+        250.0,
+        205.0,
+        675.0
+      ],
+      "performance_score": 25.95,
+      "customer_equity_score": 37.84,
+      "presence_score": 11.68,
+      "BSI": 25.24,
+      "data_flags": ""
+    },
+    {
+      "brand": "Bloom",
+      "revenue": 196423.9,
+      "units_sold": 3373.0,
+      "transactions": 3251,
+      "revenue_share": 0.010531687769757313,
+      "unit_share": 0.006442383357144494,
+      "on_hand_units": 202,
+      "units_received": 652,
+      "sell_through_true": 0.988569753810082,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 60.419532451553366,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 202,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-04",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        202
+      ],
+      "monthly_received": [
+        160.0,
+        30.0,
+        20.0,
+        60.0,
+        382.0
+      ],
+      "performance_score": 23.49,
+      "customer_equity_score": 41.04,
+      "presence_score": 11.35,
+      "BSI": 25.11,
+      "data_flags": ""
+    },
+    {
+      "brand": "Mantelpiece",
+      "revenue": 300.0,
+      "units_sold": 1.0,
+      "transactions": 1,
+      "revenue_share": 1.608514203682543e-05,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 0,
+      "units_received": 1,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 300.0,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        1.0
+      ],
+      "performance_score": 13.13,
+      "customer_equity_score": 65.0,
+      "presence_score": 0.03,
+      "BSI": 24.76,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Grassroots",
+      "revenue": 218979.99,
+      "units_sold": 4461.0,
+      "transactions": 4360,
+      "revenue_share": 0.011741080807908706,
+      "unit_share": 0.008520448311954221,
+      "on_hand_units": 677,
+      "units_received": 2345,
+      "sell_through_true": 0.9369880277252678,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 50.224768348623854,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 677,
+      "months": [
+        "2024-12",
+        "2025-01",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        677
+      ],
+      "monthly_received": [
+        40.0,
+        25.0,
+        50.0,
+        200.0,
+        120.0,
+        140.0,
+        155.0,
+        435.0,
+        1180.0
+      ],
+      "performance_score": 24.55,
+      "customer_equity_score": 40.02,
+      "presence_score": 9.74,
+      "BSI": 24.75,
+      "data_flags": ""
+    },
+    {
+      "brand": "Select",
+      "revenue": 233499.27,
+      "units_sold": 2771.0,
+      "transactions": 2730,
+      "revenue_share": 0.012519563078150168,
+      "unit_share": 0.005292571681781024,
+      "on_hand_units": 518,
+      "units_received": 886,
+      "sell_through_true": 0.969220006995453,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 85.53086813186813,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 518,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        518
+      ],
+      "monthly_received": [
+        110.0,
+        30.0,
+        10.0,
+        18.0,
+        95.0,
+        623.0
+      ],
+      "performance_score": 24.18,
+      "customer_equity_score": 43.55,
+      "presence_score": 6.29,
+      "BSI": 24.63,
+      "data_flags": ""
+    },
+    {
+      "brand": "Eaton Botanicals",
+      "revenue": 158728.54,
+      "units_sold": 5352.0,
+      "transactions": 4885,
+      "revenue_share": 0.008510570370659755,
+      "unit_share": 0.010222245990939025,
+      "on_hand_units": 393,
+      "units_received": 640,
+      "sell_through_true": 1.067198404785643,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.49304810644831,
+      "begin_on_hand_units": 393,
+      "end_on_hand_units": 393,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        393
+      ],
+      "monthly_received": [
+        640.0
+      ],
+      "performance_score": 24.67,
+      "customer_equity_score": 38.25,
+      "presence_score": 10.84,
+      "BSI": 24.59,
+      "data_flags": ""
+    },
+    {
+      "brand": "Good Green",
+      "revenue": 207392.4,
+      "units_sold": 2849.0,
+      "transactions": 2781,
+      "revenue_share": 0.011119787371193714,
+      "unit_share": 0.005441550603173633,
+      "on_hand_units": 65,
+      "units_received": 1623,
+      "sell_through_true": 1.0171367368796858,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 74.5747572815534,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 65,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        65
+      ],
+      "monthly_received": [
+        190.0,
+        19.0,
+        30.0,
+        120.0,
+        465.0,
+        135.0,
+        45.0,
+        210.0,
+        409.0
+      ],
+      "performance_score": 23.87,
+      "customer_equity_score": 42.46,
+      "presence_score": 6.87,
+      "BSI": 24.35,
+      "data_flags": ""
+    },
+    {
+      "brand": "Toast",
+      "revenue": 193222.31,
+      "units_sold": 3347.0,
+      "transactions": 3029,
+      "revenue_share": 0.010360027670111713,
+      "unit_share": 0.006392723716680291,
+      "on_hand_units": 270,
+      "units_received": 854,
+      "sell_through_true": 1.0952225130890052,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 63.7907923407065,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 270,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        270
+      ],
+      "monthly_received": [
+        162.0,
+        60.0,
+        75.0,
+        557.0
+      ],
+      "performance_score": 24.77,
+      "customer_equity_score": 41.38,
+      "presence_score": 6.23,
+      "BSI": 24.19,
+      "data_flags": ""
+    },
+    {
+      "brand": "Platinum Reserve",
+      "revenue": 224589.86,
+      "units_sold": 4272.0,
+      "transactions": 4119,
+      "revenue_share": 0.012041865993769125,
+      "unit_share": 0.008159460925502899,
+      "on_hand_units": 68,
+      "units_received": 2264,
+      "sell_through_true": 0.9610798650168729,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 54.52533624666181,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 68,
+      "months": [
+        "2024-08",
+        "2024-09",
+        "2025-01",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        68
+      ],
+      "monthly_received": [
+        200.0,
+        150.0,
+        200.0,
+        200.0,
+        330.0,
+        200.0,
+        2.0,
+        452.0,
+        2.0,
+        528.0
+      ],
+      "performance_score": 24.93,
+      "customer_equity_score": 40.45,
+      "presence_score": 6.55,
+      "BSI": 24.07,
+      "data_flags": ""
+    },
+    {
+      "brand": "Wana",
+      "revenue": 111021.18,
+      "units_sold": 3594.0,
+      "transactions": 3161,
+      "revenue_share": 0.005952638164653208,
+      "unit_share": 0.0068644903010902205,
+      "on_hand_units": 96,
+      "units_received": 340,
+      "sell_through_true": 1.184965380811078,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 35.122170199304016,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 96,
+      "months": [
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        96
+      ],
+      "monthly_received": [
+        20.0,
+        320.0
+      ],
+      "performance_score": 22.98,
+      "customer_equity_score": 38.51,
+      "presence_score": 10.39,
+      "BSI": 23.86,
+      "data_flags": ""
+    },
+    {
+      "brand": "SpaceBuds",
+      "revenue": 165070.99,
+      "units_sold": 2690.0,
+      "transactions": 2622,
+      "revenue_share": 0.0088506344010313,
+      "unit_share": 0.005137862801873314,
+      "on_hand_units": 1,
+      "units_received": 335,
+      "sell_through_true": 1.1515410958904109,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 62.956136536994656,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-03",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        45,
+        0,
+        1
+      ],
+      "monthly_received": [
+        75.0,
+        50.0,
+        190.0,
+        20.0
+      ],
+      "performance_score": 23.9,
+      "customer_equity_score": 41.3,
+      "presence_score": 5.97,
+      "BSI": 23.74,
+      "data_flags": ""
+    },
+    {
+      "brand": "Bettering Co.",
+      "revenue": 126210.39,
+      "units_sold": 4853.0,
+      "transactions": 4435,
+      "revenue_share": 0.006767040165577105,
+      "unit_share": 0.009269162891260667,
+      "on_hand_units": 252,
+      "units_received": 700,
+      "sell_through_true": 1.0434315201032036,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.457810597519728,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 252,
+      "months": [
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        252
+      ],
+      "monthly_received": [
+        80.0,
+        80.0,
+        540.0
+      ],
+      "performance_score": 22.69,
+      "customer_equity_score": 37.85,
+      "presence_score": 10.42,
+      "BSI": 23.56,
+      "data_flags": ""
+    },
+    {
+      "brand": "Smokiez",
+      "revenue": 87364.52,
+      "units_sold": 4004.0,
+      "transactions": 3478,
+      "revenue_share": 0.00468423571059692,
+      "unit_share": 0.007647584631487268,
+      "on_hand_units": 173,
+      "units_received": 370,
+      "sell_through_true": 1.0737463126843658,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 25.119183438757908,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 173,
+      "months": [
+        "2024-08",
+        "2025-03",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        173
+      ],
+      "monthly_received": [
+        15.0,
+        10.0,
+        75.0,
+        30.0,
+        240.0
+      ],
+      "performance_score": 20.91,
+      "customer_equity_score": 37.51,
+      "presence_score": 12.1,
+      "BSI": 23.25,
+      "data_flags": ""
+    },
+    {
+      "brand": "FlowerHouse",
+      "revenue": 97719.93,
+      "units_sold": 3296.0,
+      "transactions": 3156,
+      "revenue_share": 0.005239463179595461,
+      "unit_share": 0.006295314421923585,
+      "on_hand_units": 8,
+      "units_received": 1815,
+      "sell_through_true": 1.080655737704918,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 30.963222433460075,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 8,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "monthly_received": [
+        498.0,
+        214.0,
+        378.0,
+        382.0,
+        128.0,
+        215.0
+      ],
+      "performance_score": 20.84,
+      "customer_equity_score": 38.1,
+      "presence_score": 11.0,
+      "BSI": 23.06,
+      "data_flags": ""
+    },
+    {
+      "brand": "Mfused",
+      "revenue": 130268.14,
+      "units_sold": 2582.0,
+      "transactions": 2550,
+      "revenue_share": 0.0069846051159102,
+      "unit_share": 0.004931584295329702,
+      "on_hand_units": 0,
+      "units_received": 770,
+      "sell_through_true": 0.9351684172401303,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 51.08554509803921,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2024-12",
+        "2025-01",
+        "2025-03",
+        "2025-07"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        390.0,
+        80.0,
+        10.0,
+        290.0
+      ],
+      "performance_score": 19.58,
+      "customer_equity_score": 40.11,
+      "presence_score": 10.58,
+      "BSI": 23.04,
+      "data_flags": ""
+    },
+    {
+      "brand": "butter",
+      "revenue": 93266.35,
+      "units_sold": 2314.0,
+      "transactions": 2208,
+      "revenue_share": 0.005000674956687578,
+      "unit_share": 0.004419708001314071,
+      "on_hand_units": 41,
+      "units_received": 744,
+      "sell_through_true": 1.2827050997782705,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 42.240194746376815,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 41,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        53,
+        0,
+        0,
+        0,
+        0,
+        41
+      ],
+      "monthly_received": [
+        137.0,
+        80.0,
+        100.0,
+        20.0,
+        20.0,
+        181.0,
+        60.0,
+        146.0
+      ],
+      "performance_score": 22.57,
+      "customer_equity_score": 39.22,
+      "presence_score": 6.65,
+      "BSI": 22.79,
+      "data_flags": ""
+    },
+    {
+      "brand": "Stone Road",
+      "revenue": 190662.11,
+      "units_sold": 2999.0,
+      "transactions": 2805,
+      "revenue_share": 0.010222757067969445,
+      "unit_share": 0.00572804852892865,
+      "on_hand_units": 364,
+      "units_received": 1747,
+      "sell_through_true": 0.9374804626445764,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 67.97223172905525,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 364,
+      "months": [
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        364
+      ],
+      "monthly_received": [
+        40.0,
+        80.0,
+        88.0,
+        479.0,
+        120.0,
+        60.0,
+        880.0
+      ],
+      "performance_score": 22.28,
+      "customer_equity_score": 41.8,
+      "presence_score": 4.39,
+      "BSI": 22.77,
+      "data_flags": ""
+    },
+    {
+      "brand": "Her Highness",
+      "revenue": 124485.74,
+      "units_sold": 1917.0,
+      "transactions": 1851,
+      "revenue_share": 0.006674569364864403,
+      "unit_share": 0.003661443491149124,
+      "on_hand_units": 122,
+      "units_received": 366,
+      "sell_through_true": 1.1826033312769895,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 67.25323608860076,
+      "begin_on_hand_units": 48,
+      "end_on_hand_units": 122,
+      "months": [
+        "2024-03",
+        "2025-05",
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        48,
+        0,
+        0,
+        122
+      ],
+      "monthly_received": [
+        50.0,
+        50.0,
+        51.0,
+        215.0
+      ],
+      "performance_score": 22.12,
+      "customer_equity_score": 41.73,
+      "presence_score": 4.58,
+      "BSI": 22.74,
+      "data_flags": ""
+    },
+    {
+      "brand": "Head & Heal",
+      "revenue": 75166.54,
+      "units_sold": 875.0,
+      "transactions": 813,
+      "revenue_share": 0.0040302149077224,
+      "unit_share": 0.0016712379002376022,
+      "on_hand_units": 9,
+      "units_received": 60,
+      "sell_through_true": 1.11323155216285,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 92.45576875768757,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 9,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        9
+      ],
+      "monthly_received": [
+        24.0,
+        36.0
+      ],
+      "performance_score": 18.45,
+      "customer_equity_score": 44.25,
+      "presence_score": 6.55,
+      "BSI": 22.62,
+      "data_flags": ""
+    },
+    {
+      "brand": "Flamer",
+      "revenue": 110408.8,
+      "units_sold": 4169.0,
+      "transactions": 3810,
+      "revenue_share": 0.005919804100384838,
+      "unit_share": 0.007962732349817788,
+      "on_hand_units": 318,
+      "units_received": 657,
+      "sell_through_true": 1.0286207747347644,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.978687664041995,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 318,
+      "months": [
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        318
+      ],
+      "monthly_received": [
+        100.0,
+        100.0,
+        457.0
+      ],
+      "performance_score": 21.33,
+      "customer_equity_score": 37.9,
+      "presence_score": 8.48,
+      "BSI": 22.45,
+      "data_flags": ""
+    },
+    {
+      "brand": "B Noble",
+      "revenue": 51812.36,
+      "units_sold": 1396.0,
+      "transactions": 1322,
+      "revenue_share": 0.0027780305662104413,
+      "unit_share": 0.0026663406956933633,
+      "on_hand_units": 177,
+      "units_received": 402,
+      "sell_through_true": 1.4129554655870444,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 39.19240544629349,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 177,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        177
+      ],
+      "monthly_received": [
+        36.0,
+        36.0,
+        50.0,
+        40.0,
+        10.0,
+        20.0,
+        20.0,
+        70.0,
+        120.0
+      ],
+      "performance_score": 21.96,
+      "customer_equity_score": 38.92,
+      "presence_score": 6.55,
+      "BSI": 22.43,
+      "data_flags": ""
+    },
+    {
+      "brand": "Jetty",
+      "revenue": 110612.1,
+      "units_sold": 1625.0,
+      "transactions": 1547,
+      "revenue_share": 0.005930704464971794,
+      "unit_share": 0.00310372752901269,
+      "on_hand_units": 25,
+      "units_received": 746,
+      "sell_through_true": 1.1607142857142858,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 71.50103425985779,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 25,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25
+      ],
+      "monthly_received": [
+        25.0,
+        10.0,
+        10.0,
+        410.0,
+        51.0,
+        40.0,
+        200.0
+      ],
+      "performance_score": 21.06,
+      "customer_equity_score": 42.15,
+      "presence_score": 4.48,
+      "BSI": 22.41,
+      "data_flags": ""
+    },
+    {
+      "brand": "Old Pal",
+      "revenue": 117037.6,
+      "units_sold": 1640.0,
+      "transactions": 1609,
+      "revenue_share": 0.006275221398830533,
+      "unit_share": 0.003132377321588192,
+      "on_hand_units": 2,
+      "units_received": 543,
+      "sell_through_true": 0.9987819732034104,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 72.73934120571784,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "monthly_received": [
+        213.0,
+        90.0,
+        170.0,
+        70.0
+      ],
+      "performance_score": 19.16,
+      "customer_equity_score": 42.27,
+      "presence_score": 6.03,
+      "BSI": 22.16,
+      "data_flags": ""
+    },
+    {
+      "brand": "Miss Grass",
+      "revenue": 72522.36,
+      "units_sold": 2271.0,
+      "transactions": 2141,
+      "revenue_share": 0.0038884415381526235,
+      "unit_share": 0.004337578595930965,
+      "on_hand_units": 130,
+      "units_received": 705,
+      "sell_through_true": 1.1724315952503872,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 33.87312470808034,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 130,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        130
+      ],
+      "monthly_received": [
+        80.0,
+        150.0,
+        130.0,
+        30.0,
+        25.0,
+        290.0
+      ],
+      "performance_score": 20.26,
+      "customer_equity_score": 38.39,
+      "presence_score": 8.35,
+      "BSI": 22.13,
+      "data_flags": ""
+    },
+    {
+      "brand": "Drew Martin",
+      "revenue": 31789.2,
+      "units_sold": 792.0,
+      "transactions": 739,
+      "revenue_share": 0.0017044459907901697,
+      "unit_share": 0.0015127090479864925,
+      "on_hand_units": 42,
+      "units_received": 351,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 43.01650879566982,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 42,
+      "months": [
+        "2025-02",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        42
+      ],
+      "monthly_received": [
+        249.0,
+        102.0
+      ],
+      "performance_score": 21.87,
+      "customer_equity_score": 39.3,
+      "presence_score": 4.61,
+      "BSI": 21.92,
+      "data_flags": ""
+    },
+    {
+      "brand": "Blotter",
+      "revenue": 17703.0,
+      "units_sold": 335.0,
+      "transactions": 311,
+      "revenue_share": 0.0009491842315930686,
+      "unit_share": 0.0006398453675195391,
+      "on_hand_units": 30,
+      "units_received": 352,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 56.92282958199357,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 30,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        30
+      ],
+      "monthly_received": [
+        200.0,
+        72.0,
+        80.0
+      ],
+      "performance_score": 20.95,
+      "customer_equity_score": 40.69,
+      "presence_score": 3.29,
+      "BSI": 21.58,
+      "data_flags": ""
+    },
+    {
+      "brand": "Packs",
+      "revenue": 35021.82,
+      "units_sold": 831.0,
+      "transactions": 780,
+      "revenue_share": 0.0018777698302937784,
+      "unit_share": 0.0015871985086827972,
+      "on_hand_units": 0,
+      "units_received": 900,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 44.89976923076923,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-05",
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        450.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "performance_score": 22.02,
+      "customer_equity_score": 39.49,
+      "presence_score": 2.35,
+      "BSI": 21.36,
+      "data_flags": ""
+    },
+    {
+      "brand": "Lowell Farms",
+      "revenue": 108131.46,
+      "units_sold": 2245.0,
+      "transactions": 2194,
+      "revenue_share": 0.005797699642497691,
+      "unit_share": 0.004287918955466762,
+      "on_hand_units": 93,
+      "units_received": 779,
+      "sell_through_true": 1.0485754320411023,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 49.285077484047406,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 93,
+      "months": [
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        93
+      ],
+      "monthly_received": [
+        79.0,
+        40.0,
+        90.0,
+        140.0,
+        90.0,
+        60.0,
+        120.0,
+        160.0
+      ],
+      "performance_score": 19.97,
+      "customer_equity_score": 39.93,
+      "presence_score": 3.87,
+      "BSI": 21.13,
+      "data_flags": ""
+    },
+    {
+      "brand": "Dime",
+      "revenue": 16995.99,
+      "units_sold": 305.0,
+      "transactions": 302,
+      "revenue_share": 0.0009112763773548821,
+      "unit_share": 0.0005825457823685357,
+      "on_hand_units": 0,
+      "units_received": 360,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 56.27811258278146,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-05"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        120.0,
+        240.0
+      ],
+      "performance_score": 20.9,
+      "customer_equity_score": 40.63,
+      "presence_score": 0.9,
+      "BSI": 20.82,
+      "data_flags": ""
+    },
+    {
+      "brand": "Foy",
+      "revenue": 58264.79,
+      "units_sold": 2058.0,
+      "transactions": 1805,
+      "revenue_share": 0.0031239914096526863,
+      "unit_share": 0.00393075154135884,
+      "on_hand_units": 281,
+      "units_received": 185,
+      "sell_through_true": 1.0952634379989357,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.27966204986149,
+      "begin_on_hand_units": 281,
+      "end_on_hand_units": 281,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        281
+      ],
+      "monthly_received": [
+        185.0
+      ],
+      "performance_score": 18.51,
+      "customer_equity_score": 38.23,
+      "presence_score": 6.19,
+      "BSI": 20.73,
+      "data_flags": ""
+    },
+    {
+      "brand": "Puff Co",
+      "revenue": 17181.2,
+      "units_sold": 117.0,
+      "transactions": 121,
+      "revenue_share": 0.0009212068078770168,
+      "unit_share": 0.00022346838208891367,
+      "on_hand_units": 21,
+      "units_received": 102,
+      "sell_through_true": 0.9669421487603306,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 141.99338842975206,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 21,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        21
+      ],
+      "monthly_received": [
+        18.0,
+        6.0,
+        12.0,
+        6.0,
+        12.0,
+        48.0
+      ],
+      "performance_score": 13.65,
+      "customer_equity_score": 49.2,
+      "presence_score": 1.55,
+      "BSI": 20.68,
+      "data_flags": ""
+    },
+    {
+      "brand": "Tune",
+      "revenue": 25221.29,
+      "units_sold": 5082.0,
+      "transactions": 3370,
+      "revenue_share": 0.0013522934400065495,
+      "unit_share": 0.009706549724579993,
+      "on_hand_units": 4,
+      "units_received": 264,
+      "sell_through_true": 1.0352413933591362,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 7.4840623145400595,
+      "begin_on_hand_units": 4,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        4
+      ],
+      "monthly_received": [
+        264.0
+      ],
+      "performance_score": 18.86,
+      "customer_equity_score": 35.75,
+      "presence_score": 8.03,
+      "BSI": 20.68,
+      "data_flags": ""
+    },
+    {
+      "brand": "Beboe",
+      "revenue": 61508.5,
+      "units_sold": 1634.0,
+      "transactions": 1559,
+      "revenue_share": 0.003297909863240256,
+      "unit_share": 0.003120917404557991,
+      "on_hand_units": 80,
+      "units_received": 344,
+      "sell_through_true": 1.0080197409006786,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 39.45381654906992,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 80,
+      "months": [
+        "2025-02",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        80
+      ],
+      "monthly_received": [
+        6.0,
+        50.0,
+        288.0
+      ],
+      "performance_score": 17.13,
+      "customer_equity_score": 38.95,
+      "presence_score": 6.97,
+      "BSI": 20.63,
+      "data_flags": ""
+    },
+    {
+      "brand": "STA Exotics",
+      "revenue": 63362.25,
+      "units_sold": 2454.0,
+      "transactions": 2273,
+      "revenue_share": 0.0033973026367428065,
+      "unit_share": 0.0046871060653520865,
+      "on_hand_units": 57,
+      "units_received": 926,
+      "sell_through_true": 1.073960612691466,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 27.876044874615047,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 57,
+      "months": [
+        "2025-01",
+        "2025-05",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        57
+      ],
+      "monthly_received": [
+        585.0,
+        10.0,
+        11.0,
+        40.0,
+        280.0
+      ],
+      "performance_score": 18.74,
+      "customer_equity_score": 37.79,
+      "presence_score": 5.81,
+      "BSI": 20.57,
+      "data_flags": ""
+    },
+    {
+      "brand": "Olio",
+      "revenue": 38697.11,
+      "units_sold": 623.0,
+      "transactions": 625,
+      "revenue_share": 0.0020748283692155257,
+      "unit_share": 0.001189921384969173,
+      "on_hand_units": 10,
+      "units_received": 364,
+      "sell_through_true": 1.2535211267605635,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 61.915376,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 10,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ],
+      "monthly_received": [
+        20.0,
+        24.0,
+        23.0,
+        24.0,
+        48.0,
+        112.0,
+        50.0,
+        63.0
+      ],
+      "performance_score": 18.71,
+      "customer_equity_score": 41.19,
+      "presence_score": 2.26,
+      "BSI": 20.52,
+      "data_flags": ""
+    },
+    {
+      "brand": "Woodstock",
+      "revenue": 74165.32,
+      "units_sold": 1403.0,
+      "transactions": 1364,
+      "revenue_share": 0.003976532354688699,
+      "unit_share": 0.002679710598895264,
+      "on_hand_units": 104,
+      "units_received": 841,
+      "sell_through_true": 1.0071787508973438,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 54.3734017595308,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 104,
+      "months": [
+        "2025-02",
+        "2025-03",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        104
+      ],
+      "monthly_received": [
+        25.0,
+        10.0,
+        55.0,
+        50.0,
+        115.0,
+        200.0,
+        386.0
+      ],
+      "performance_score": 17.42,
+      "customer_equity_score": 40.44,
+      "presence_score": 4.26,
+      "BSI": 20.38,
+      "data_flags": ""
+    },
+    {
+      "brand": "Silly Nice",
+      "revenue": 52480.2,
+      "units_sold": 1018.0,
+      "transactions": 936,
+      "revenue_share": 0.0028138382370700194,
+      "unit_share": 0.001944365922790719,
+      "on_hand_units": 28,
+      "units_received": 124,
+      "sell_through_true": 1.0593132154006244,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 56.06858974358974,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 28,
+      "months": [
+        "2025-05",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        28
+      ],
+      "monthly_received": [
+        24.0,
+        64.0,
+        36.0
+      ],
+      "performance_score": 16.97,
+      "customer_equity_score": 40.61,
+      "presence_score": 4.58,
+      "BSI": 20.34,
+      "data_flags": ""
+    },
+    {
+      "brand": "Moods",
+      "revenue": 106848.6,
+      "units_sold": 2469.0,
+      "transactions": 2426,
+      "revenue_share": 0.005728916358119818,
+      "unit_share": 0.004715755857927589,
+      "on_hand_units": 437,
+      "units_received": 890,
+      "sell_through_true": 0.9261065266316579,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 44.043116240725475,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 437,
+      "months": [
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        89,
+        437
+      ],
+      "monthly_received": [
+        80.0,
+        100.0,
+        710.0
+      ],
+      "performance_score": 18.46,
+      "customer_equity_score": 39.4,
+      "presence_score": 3.68,
+      "BSI": 20.31,
+      "data_flags": ""
+    },
+    {
+      "brand": "&Shine",
+      "revenue": 55646.48,
+      "units_sold": 717.0,
+      "transactions": 687,
+      "revenue_share": 0.002983605115497885,
+      "unit_share": 0.0013694600851089837,
+      "on_hand_units": 0,
+      "units_received": 505,
+      "sell_through_true": 0.9192307692307692,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 80.99924308588065,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-05",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        29,
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        25.0,
+        300.0,
+        60.0,
+        50.0,
+        20.0,
+        50.0
+      ],
+      "performance_score": 14.99,
+      "customer_equity_score": 43.1,
+      "presence_score": 4.52,
+      "BSI": 20.28,
+      "data_flags": ""
+    },
+    {
+      "brand": "Seed & Strain",
+      "revenue": 8476.8,
+      "units_sold": 234.0,
+      "transactions": 229,
+      "revenue_share": 0.00045450177339253925,
+      "unit_share": 0.00044693676417782735,
+      "on_hand_units": 0,
+      "units_received": 160,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 37.01659388646288,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        160.0
+      ],
+      "performance_score": 20.52,
+      "customer_equity_score": 38.7,
+      "presence_score": 1.32,
+      "BSI": 20.21,
+      "data_flags": ""
+    },
+    {
+      "brand": "P3",
+      "revenue": 6185.0,
+      "units_sold": 253.0,
+      "transactions": 206,
+      "revenue_share": 0.0003316220116592176,
+      "unit_share": 0.00048322650144012956,
+      "on_hand_units": 0,
+      "units_received": 172,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 30.024271844660195,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-02",
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        30.0,
+        142.0
+      ],
+      "performance_score": 20.44,
+      "customer_equity_score": 38.0,
+      "presence_score": 2.03,
+      "BSI": 20.19,
+      "data_flags": ""
+    },
+    {
+      "brand": "Nova",
+      "revenue": 15183.21,
+      "units_sold": 496.0,
+      "transactions": 457,
+      "revenue_share": 0.0008140802980831607,
+      "unit_share": 0.000947353141163258,
+      "on_hand_units": 0,
+      "units_received": 180,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 33.22365426695842,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-05",
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        80.0,
+        60.0,
+        40.0
+      ],
+      "performance_score": 20.99,
+      "customer_equity_score": 38.32,
+      "presence_score": 0.87,
+      "BSI": 20.15,
+      "data_flags": ""
+    },
+    {
+      "brand": "777",
+      "revenue": 5614.4,
+      "units_sold": 129.0,
+      "transactions": 128,
+      "revenue_share": 0.0003010280715051756,
+      "unit_share": 0.0002463882161493151,
+      "on_hand_units": 0,
+      "units_received": 262,
+      "sell_through_true": 1.4827586206896552,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 43.8625,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-02"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        182.0,
+        80.0
+      ],
+      "performance_score": 20.09,
+      "customer_equity_score": 39.39,
+      "presence_score": 0.48,
+      "BSI": 20.0,
+      "data_flags": ""
+    },
+    {
+      "brand": "Laundry Day",
+      "revenue": 1344.0,
+      "units_sold": 32.0,
+      "transactions": 32,
+      "revenue_share": 7.206143632497793e-05,
+      "unit_share": 6.111955749440375e-05,
+      "on_hand_units": 14,
+      "units_received": 88,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 42.0,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 14,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        14
+      ],
+      "monthly_received": [
+        8.0,
+        14.0,
+        66.0
+      ],
+      "performance_score": 20.08,
+      "customer_equity_score": 39.2,
+      "presence_score": 0.61,
+      "BSI": 19.97,
+      "data_flags": ""
+    },
+    {
+      "brand": "Cloudious9",
+      "revenue": 466.1,
+      "units_sold": 8.0,
+      "transactions": 10,
+      "revenue_share": 2.499094901121444e-05,
+      "unit_share": 1.5279889373600936e-05,
+      "on_hand_units": 3,
+      "units_received": 30,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 46.61,
+      "begin_on_hand_units": 3,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        3
+      ],
+      "monthly_received": [
+        30.0
+      ],
+      "performance_score": 20.02,
+      "customer_equity_score": 39.66,
+      "presence_score": 0.13,
+      "BSI": 19.95,
+      "data_flags": ""
+    },
+    {
+      "brand": "Love Oui'd",
+      "revenue": 21787.97,
+      "units_sold": 723.0,
+      "transactions": 671,
+      "revenue_share": 0.0011682086404803044,
+      "unit_share": 0.0013809200021391846,
+      "on_hand_units": 7,
+      "units_received": 141,
+      "sell_through_true": 1.2487046632124352,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.470894187779436,
+      "begin_on_hand_units": 7,
+      "end_on_hand_units": 7,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        7
+      ],
+      "monthly_received": [
+        141.0
+      ],
+      "performance_score": 18.07,
+      "customer_equity_score": 38.25,
+      "presence_score": 3.68,
+      "BSI": 19.81,
+      "data_flags": ""
+    },
+    {
+      "brand": "Umamii",
+      "revenue": 82737.93,
+      "units_sold": 2569.0,
+      "transactions": 2498,
+      "revenue_share": 0.004436171186276399,
+      "unit_share": 0.0049067544750976,
+      "on_hand_units": 4,
+      "units_received": 893,
+      "sell_through_true": 0.952893175074184,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 33.12166933546837,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "monthly_received": [
+        8.0,
+        12.0,
+        111.0,
+        762.0
+      ],
+      "performance_score": 17.97,
+      "customer_equity_score": 38.31,
+      "presence_score": 3.74,
+      "BSI": 19.8,
+      "data_flags": ""
+    },
+    {
+      "brand": "Kiva",
+      "revenue": 38998.53,
+      "units_sold": 1370.0,
+      "transactions": 1238,
+      "revenue_share": 0.0020909896475913253,
+      "unit_share": 0.0026166810552291603,
+      "on_hand_units": 56,
+      "units_received": 180,
+      "sell_through_true": 1.0986367281475542,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 31.501235864297254,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 56,
+      "months": [
+        "2025-05",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        56
+      ],
+      "monthly_received": [
+        60.0,
+        20.0,
+        100.0
+      ],
+      "performance_score": 17.26,
+      "customer_equity_score": 38.15,
+      "presence_score": 4.35,
+      "BSI": 19.65,
+      "data_flags": ""
+    },
+    {
+      "brand": "CAM",
+      "revenue": 220.0,
+      "units_sold": 7.0,
+      "transactions": 7,
+      "revenue_share": 1.1795770827005313e-05,
+      "unit_share": 1.3369903201900818e-05,
+      "on_hand_units": 0,
+      "units_received": 80,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 31.428571428571427,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        80.0
+      ],
+      "performance_score": 20.01,
+      "customer_equity_score": 38.14,
+      "presence_score": 0.29,
+      "BSI": 19.54,
+      "data_flags": ""
+    },
+    {
+      "brand": "Zig Zag",
+      "revenue": 7055.110000000001,
+      "units_sold": 2438.0,
+      "transactions": 2025,
+      "revenue_share": 0.00037827482145142484,
+      "unit_share": 0.004656546286604885,
+      "on_hand_units": 63,
+      "units_received": 636,
+      "sell_through_true": 1.3051391862955033,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 3.4840049382716054,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 63,
+      "months": [
+        "2025-02",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        63
+      ],
+      "monthly_received": [
+        90.0,
+        144.0,
+        402.0
+      ],
+      "performance_score": 19.63,
+      "customer_equity_score": 35.35,
+      "presence_score": 2.84,
+      "BSI": 19.31,
+      "data_flags": ""
+    },
+    {
+      "brand": "ooze",
+      "revenue": 1598.0,
+      "units_sold": 80.0,
+      "transactions": 82,
+      "revenue_share": 8.568018991615678e-05,
+      "unit_share": 0.00015279889373600935,
+      "on_hand_units": 0,
+      "units_received": 120,
+      "sell_through_true": 1.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 19.48780487804878,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-04"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        120.0
+      ],
+      "performance_score": 20.13,
+      "customer_equity_score": 36.95,
+      "presence_score": 0.39,
+      "BSI": 19.25,
+      "data_flags": ""
+    },
+    {
+      "brand": "Highland Goat",
+      "revenue": 53582.08,
+      "units_sold": 1541.0,
+      "transactions": 1468,
+      "revenue_share": 0.002872917891428477,
+      "unit_share": 0.00294328869058988,
+      "on_hand_units": 55,
+      "units_received": 100,
+      "sell_through_true": 1.016490765171504,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.500054495912806,
+      "begin_on_hand_units": 55,
+      "end_on_hand_units": 55,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        55
+      ],
+      "monthly_received": [
+        100.0
+      ],
+      "performance_score": 16.86,
+      "customer_equity_score": 38.65,
+      "presence_score": 2.97,
+      "BSI": 19.23,
+      "data_flags": ""
+    },
+    {
+      "brand": "RAW",
+      "revenue": 9139.82,
+      "units_sold": 4065.0,
+      "transactions": 3478,
+      "revenue_share": 0.0004900510096367259,
+      "unit_share": 0.007764093787960975,
+      "on_hand_units": 146,
+      "units_received": 1222,
+      "sell_through_true": 1.138655462184874,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 2.6278953421506612,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 146,
+      "months": [
+        "2024-08",
+        "2025-01",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        146
+      ],
+      "monthly_received": [
+        24.0,
+        490.0,
+        708.0
+      ],
+      "performance_score": 18.8,
+      "customer_equity_score": 35.26,
+      "presence_score": 3.71,
+      "BSI": 19.21,
+      "data_flags": ""
+    },
+    {
+      "brand": "Holiday",
+      "revenue": 62180.15,
+      "units_sold": 1106.0,
+      "transactions": 1084,
+      "revenue_share": 0.003333921815403702,
+      "unit_share": 0.0021124447059003293,
+      "on_hand_units": 165,
+      "units_received": 320,
+      "sell_through_true": 0.8912167606768735,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 57.361761992619925,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 165,
+      "months": [
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        165
+      ],
+      "monthly_received": [
+        140.0,
+        180.0
+      ],
+      "performance_score": 15.18,
+      "customer_equity_score": 40.74,
+      "presence_score": 3.0,
+      "BSI": 19.19,
+      "data_flags": ""
+    },
+    {
+      "brand": "Higgs",
+      "revenue": 66163.9,
+      "units_sold": 1337.0,
+      "transactions": 1269,
+      "revenue_share": 0.0035475190973677127,
+      "unit_share": 0.0025536515115630563,
+      "on_hand_units": 98,
+      "units_received": 180,
+      "sell_through_true": 0.9611790079079798,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 52.13861308116627,
+      "begin_on_hand_units": 29,
+      "end_on_hand_units": 98,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        29,
+        98
+      ],
+      "monthly_received": [
+        60.0,
+        120.0
+      ],
+      "performance_score": 16.45,
+      "customer_equity_score": 40.21,
+      "presence_score": 1.71,
+      "BSI": 19.16,
+      "data_flags": ""
+    },
+    {
+      "brand": "KOA",
+      "revenue": 62743.25,
+      "units_sold": 1019.0,
+      "transactions": 994,
+      "revenue_share": 0.0033641136270068234,
+      "unit_share": 0.0019462759089624191,
+      "on_hand_units": 110,
+      "units_received": 168,
+      "sell_through_true": 0.9348623853211009,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 63.121981891348085,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 110,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        110
+      ],
+      "monthly_received": [
+        24.0,
+        144.0
+      ],
+      "performance_score": 15.71,
+      "customer_equity_score": 41.31,
+      "presence_score": 1.61,
+      "BSI": 19.16,
+      "data_flags": ""
+    },
+    {
+      "brand": "Sackville",
+      "revenue": 674.2,
+      "units_sold": 21.0,
+      "transactions": 21,
+      "revenue_share": 3.614867587075902e-05,
+      "unit_share": 4.010970960570246e-05,
+      "on_hand_units": 5,
+      "units_received": 40,
+      "sell_through_true": 1.4,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 32.10476190476191,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 5,
+      "months": [
+        "2024-09",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        5
+      ],
+      "monthly_received": [
+        5.0,
+        35.0
+      ],
+      "performance_score": 18.71,
+      "customer_equity_score": 38.21,
+      "presence_score": 0.55,
+      "BSI": 19.11,
+      "data_flags": ""
+    },
+    {
+      "brand": "House of Puff",
+      "revenue": 24025.95,
+      "units_sold": 1089.0,
+      "transactions": 1053,
+      "revenue_share": 0.0012882027277322198,
+      "unit_share": 0.0020799749409814274,
+      "on_hand_units": 1,
+      "units_received": 475,
+      "sell_through_true": 1.2604166666666667,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 22.816666666666666,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-02",
+        "2025-06",
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "monthly_received": [
+        75.0,
+        100.0,
+        200.0,
+        100.0
+      ],
+      "performance_score": 18.61,
+      "customer_equity_score": 37.28,
+      "presence_score": 1.52,
+      "BSI": 19.08,
+      "data_flags": ""
+    },
+    {
+      "brand": "Stiiizy",
+      "revenue": 55275.25,
+      "units_sold": 1026.0,
+      "transactions": 1005,
+      "revenue_share": 0.002963700824570116,
+      "unit_share": 0.00195964581216432,
+      "on_hand_units": 331,
+      "units_received": 560,
+      "sell_through_true": 0.9251577998196574,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 55.00024875621891,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 331,
+      "months": [
+        "2025-03",
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        331
+      ],
+      "monthly_received": [
+        50.0,
+        20.0,
+        20.0,
+        470.0
+      ],
+      "performance_score": 15.3,
+      "customer_equity_score": 40.5,
+      "presence_score": 2.35,
+      "BSI": 18.98,
+      "data_flags": ""
+    },
+    {
+      "brand": "Dosist",
+      "revenue": 18469.59,
+      "units_sold": 464.0,
+      "transactions": 432,
+      "revenue_share": 0.0009902865950397685,
+      "unit_share": 0.0008862335836688542,
+      "on_hand_units": 0,
+      "units_received": 80,
+      "sell_through_true": 1.0569476082004556,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 42.753680555555555,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-04",
+        "2025-06",
+        "2025-07"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        30.0,
+        20.0,
+        10.0,
+        20.0
+      ],
+      "performance_score": 15.18,
+      "customer_equity_score": 39.28,
+      "presence_score": 3.74,
+      "BSI": 18.98,
+      "data_flags": ""
+    },
+    {
+      "brand": "Stay Melo",
+      "revenue": 58664.06,
+      "units_sold": 1187.0,
+      "transactions": 1138,
+      "revenue_share": 0.003145399125189497,
+      "unit_share": 0.002267153585808039,
+      "on_hand_units": 1,
+      "units_received": 448,
+      "sell_through_true": 0.9697712418300654,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 51.55014059753954,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        1
+      ],
+      "monthly_received": [
+        288.0,
+        160.0
+      ],
+      "performance_score": 16.15,
+      "customer_equity_score": 40.16,
+      "presence_score": 1.32,
+      "BSI": 18.9,
+      "data_flags": ""
+    },
+    {
+      "brand": "Incredibles",
+      "revenue": 32440.68,
+      "units_sold": 1205.0,
+      "transactions": 1100,
+      "revenue_share": 0.0017393764852373398,
+      "unit_share": 0.002301533336898641,
+      "on_hand_units": 4,
+      "units_received": 180,
+      "sell_through_true": 1.00166251039069,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 29.49152727272727,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-03",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "monthly_received": [
+        5.0,
+        25.0,
+        25.0,
+        125.0
+      ],
+      "performance_score": 15.58,
+      "customer_equity_score": 37.95,
+      "presence_score": 4.13,
+      "BSI": 18.85,
+      "data_flags": ""
+    },
+    {
+      "brand": "Chime & Chill",
+      "revenue": 27765.45,
+      "units_sold": 776.0,
+      "transactions": 750,
+      "revenue_share": 0.0014887040232212487,
+      "unit_share": 0.0014821492692392907,
+      "on_hand_units": 79,
+      "units_received": 171,
+      "sell_through_true": 1.0,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 37.0206,
+      "begin_on_hand_units": 20,
+      "end_on_hand_units": 79,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        20,
+        79
+      ],
+      "monthly_received": [
+        26.0,
+        145.0
+      ],
+      "performance_score": 15.03,
+      "customer_equity_score": 38.7,
+      "presence_score": 3.97,
+      "BSI": 18.81,
+      "data_flags": ""
+    },
+    {
+      "brand": "40 Tons",
+      "revenue": 16051.6,
+      "units_sold": 364.0,
+      "transactions": 338,
+      "revenue_share": 0.0008606408863943569,
+      "unit_share": 0.0006952349664988425,
+      "on_hand_units": 0,
+      "units_received": 749,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 47.48994082840237,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        749.0
+      ],
+      "performance_score": 14.03,
+      "customer_equity_score": 39.75,
+      "presence_score": 3.61,
+      "BSI": 18.62,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Etain",
+      "revenue": 16441.2,
+      "units_sold": 347.0,
+      "transactions": 332,
+      "revenue_share": 0.0008815301241861808,
+      "unit_share": 0.0006627652015799405,
+      "on_hand_units": 0,
+      "units_received": 480,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 49.52168674698795,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        240.0,
+        120.0,
+        120.0
+      ],
+      "performance_score": 14.03,
+      "customer_equity_score": 39.95,
+      "presence_score": 3.16,
+      "BSI": 18.55,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Level",
+      "revenue": 36544.57,
+      "units_sold": 1075.0,
+      "transactions": 906,
+      "revenue_share": 0.001959415330415698,
+      "unit_share": 0.0020532351345776256,
+      "on_hand_units": 35,
+      "units_received": 154,
+      "sell_through_true": 0.9396853146853147,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 40.336169977924946,
+      "begin_on_hand_units": 14,
+      "end_on_hand_units": 35,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        14,
+        35
+      ],
+      "monthly_received": [
+        20.0,
+        134.0
+      ],
+      "performance_score": 14.81,
+      "customer_equity_score": 39.03,
+      "presence_score": 2.74,
+      "BSI": 18.46,
+      "data_flags": ""
+    },
+    {
+      "brand": "High 5s",
+      "revenue": 37846.9,
+      "units_sold": 595.0,
+      "transactions": 569,
+      "revenue_share": 0.002029242540511761,
+      "unit_share": 0.0011364417721615695,
+      "on_hand_units": 70,
+      "units_received": 270,
+      "sell_through_true": 0.8947368421052632,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 66.51476274165202,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 70,
+      "months": [
+        "2025-06",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        70
+      ],
+      "monthly_received": [
+        50.0,
+        40.0,
+        180.0
+      ],
+      "performance_score": 13.87,
+      "customer_equity_score": 41.65,
+      "presence_score": 1.1,
+      "BSI": 18.37,
+      "data_flags": ""
+    },
+    {
+      "brand": "Continental Exotics",
+      "revenue": 3388.0,
+      "units_sold": 87.0,
+      "transactions": 85,
+      "revenue_share": 0.00018165487073588184,
+      "unit_share": 0.00016616879693791018,
+      "on_hand_units": 0,
+      "units_received": 80,
+      "sell_through_true": 1.0235294117647058,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 39.858823529411765,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        80.0
+      ],
+      "performance_score": 13.85,
+      "customer_equity_score": 38.99,
+      "presence_score": 3.23,
+      "BSI": 18.2,
+      "data_flags": ""
+    },
+    {
+      "brand": "VLSNY",
+      "revenue": 37125.74,
+      "units_sold": 823.0,
+      "transactions": 806,
+      "revenue_share": 0.0019905760037408375,
+      "unit_share": 0.0015719186193091962,
+      "on_hand_units": 0,
+      "units_received": 200,
+      "sell_through_true": 0.9625730994152046,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 46.06171215880893,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        125.0,
+        25.0,
+        50.0
+      ],
+      "performance_score": 14.93,
+      "customer_equity_score": 39.61,
+      "presence_score": 1.06,
+      "BSI": 18.17,
+      "data_flags": ""
+    },
+    {
+      "brand": "ZZZ's Collective",
+      "revenue": 6540.16,
+      "units_sold": 1360.0,
+      "transactions": 1308,
+      "revenue_share": 0.000350664675145214,
+      "unit_share": 0.002597581193512159,
+      "on_hand_units": 33,
+      "units_received": 620,
+      "sell_through_true": 1.2132024977698483,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 5.000122324159022,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 33,
+      "months": [
+        "2025-01",
+        "2025-03",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        33
+      ],
+      "monthly_received": [
+        80.0,
+        160.0,
+        380.0
+      ],
+      "performance_score": 17.52,
+      "customer_equity_score": 35.5,
+      "presence_score": 1.58,
+      "BSI": 18.13,
+      "data_flags": ""
+    },
+    {
+      "brand": "Heady Tree",
+      "revenue": 3559.2,
+      "units_sold": 297.0,
+      "transactions": 269,
+      "revenue_share": 0.00019083412512489688,
+      "unit_share": 0.0005672658929949347,
+      "on_hand_units": 0,
+      "units_received": 550,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 13.231226765799256,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        550.0
+      ],
+      "performance_score": 13.5,
+      "customer_equity_score": 36.32,
+      "presence_score": 5.32,
+      "BSI": 17.89,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Elevate Jane",
+      "revenue": 2073.4,
+      "units_sold": 16.0,
+      "transactions": 16,
+      "revenue_share": 0.00011116977833051281,
+      "unit_share": 3.055977874720187e-05,
+      "on_hand_units": 4,
+      "units_received": 13,
+      "sell_through_true": 0.5714285714285714,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 129.5875,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        4
+      ],
+      "monthly_received": [
+        2.0,
+        11.0
+      ],
+      "performance_score": 7.71,
+      "customer_equity_score": 47.96,
+      "presence_score": 0.32,
+      "BSI": 17.57,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rosa Reta",
+      "revenue": 27079.03,
+      "units_sold": 927.0,
+      "transactions": 878,
+      "revenue_share": 0.0014519001458981895,
+      "unit_share": 0.0017705571811660083,
+      "on_hand_units": 77,
+      "units_received": 335,
+      "sell_through_true": 0.9411167512690355,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 30.841719817767654,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 77,
+      "months": [
+        "2025-05",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        77
+      ],
+      "monthly_received": [
+        30.0,
+        75.0,
+        50.0,
+        180.0
+      ],
+      "performance_score": 14.34,
+      "customer_equity_score": 38.08,
+      "presence_score": 1.32,
+      "BSI": 17.56,
+      "data_flags": ""
+    },
+    {
+      "brand": "Revelry",
+      "revenue": 17643.5,
+      "units_sold": 504.0,
+      "transactions": 481,
+      "revenue_share": 0.0009459940117557648,
+      "unit_share": 0.0009626330305368589,
+      "on_hand_units": 0,
+      "units_received": 768,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.68087318087318,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        302.0,
+        466.0
+      ],
+      "performance_score": 14.21,
+      "customer_equity_score": 38.67,
+      "presence_score": 0.87,
+      "BSI": 17.54,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Priscillas Garden",
+      "revenue": 11480.0,
+      "units_sold": 214.0,
+      "transactions": 210,
+      "revenue_share": 0.0006155247686091864,
+      "unit_share": 0.00040873704074382503,
+      "on_hand_units": 5,
+      "units_received": 191,
+      "sell_through_true": 0.9427312775330396,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 54.666666666666664,
+      "begin_on_hand_units": 5,
+      "end_on_hand_units": 5,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        5
+      ],
+      "monthly_received": [
+        191.0
+      ],
+      "performance_score": 13.19,
+      "customer_equity_score": 40.47,
+      "presence_score": 0.29,
+      "BSI": 17.5,
+      "data_flags": ""
+    },
+    {
+      "brand": "Animal",
+      "revenue": 3345.8,
+      "units_sold": 105.0,
+      "transactions": 91,
+      "revenue_share": 0.00017939222742270174,
+      "unit_share": 0.00020054854802851226,
+      "on_hand_units": 0,
+      "units_received": 420,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.76703296703297,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        420.0
+      ],
+      "performance_score": 13.33,
+      "customer_equity_score": 38.68,
+      "presence_score": 1.84,
+      "BSI": 17.49,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Go Easy",
+      "revenue": 150.0,
+      "units_sold": 3.0,
+      "transactions": 3,
+      "revenue_share": 8.042571018412715e-06,
+      "unit_share": 5.72995851510035e-06,
+      "on_hand_units": 1,
+      "units_received": 20,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 50.0,
+      "begin_on_hand_units": 1,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        1
+      ],
+      "monthly_received": [
+        20.0
+      ],
+      "performance_score": 13.13,
+      "customer_equity_score": 40.0,
+      "presence_score": 0.52,
+      "BSI": 17.41,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Ravens View Genetics",
+      "revenue": 26158.5,
+      "units_sold": 1103.0,
+      "transactions": 1056,
+      "revenue_share": 0.0014025439599009931,
+      "unit_share": 0.0021067147473852288,
+      "on_hand_units": 110,
+      "units_received": 497,
+      "sell_through_true": 0.9070723684210527,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.771306818181817,
+      "begin_on_hand_units": 110,
+      "end_on_hand_units": 110,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        110
+      ],
+      "monthly_received": [
+        497.0
+      ],
+      "performance_score": 13.99,
+      "customer_equity_score": 37.48,
+      "presence_score": 1.68,
+      "BSI": 17.34,
+      "data_flags": ""
+    },
+    {
+      "brand": "Pura",
+      "revenue": 40.5,
+      "units_sold": 1.0,
+      "transactions": 1,
+      "revenue_share": 2.171494174971433e-06,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 0,
+      "units_received": 64,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 40.5,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        64.0
+      ],
+      "performance_score": 13.12,
+      "customer_equity_score": 39.05,
+      "presence_score": 0.65,
+      "BSI": 17.16,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "oHHo",
+      "revenue": 2034.01,
+      "units_sold": 31.0,
+      "transactions": 29,
+      "revenue_share": 0.00010905779918107763,
+      "unit_share": 5.9209571322703626e-05,
+      "on_hand_units": 0,
+      "units_received": 46,
+      "sell_through_true": 0.8157894736842105,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 70.13827586206897,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-02",
+        "2025-05",
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        35.0,
+        1.0,
+        10.0
+      ],
+      "performance_score": 10.98,
+      "customer_equity_score": 42.01,
+      "presence_score": 0.35,
+      "BSI": 17.1,
+      "data_flags": ""
+    },
+    {
+      "brand": "TribeTokes",
+      "revenue": 4726.75,
+      "units_sold": 93.0,
+      "transactions": 90,
+      "revenue_share": 0.0002534348170752153,
+      "unit_share": 0.00017762871396811088,
+      "on_hand_units": 24,
+      "units_received": 93,
+      "sell_through_true": 0.8773584905660378,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 52.519444444444446,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 24,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        24
+      ],
+      "monthly_received": [
+        25.0,
+        68.0
+      ],
+      "performance_score": 11.96,
+      "customer_equity_score": 40.25,
+      "presence_score": 0.77,
+      "BSI": 17.09,
+      "data_flags": ""
+    },
+    {
+      "brand": "ONGROK",
+      "revenue": 16366.72,
+      "units_sold": 949.0,
+      "transactions": 945,
+      "revenue_share": 0.0008775367195898382,
+      "unit_share": 0.0018125768769434109,
+      "on_hand_units": 48,
+      "units_received": 277,
+      "sell_through_true": 0.9331366764995084,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 17.31928042328042,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 48,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-04",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        48
+      ],
+      "monthly_received": [
+        55.0,
+        19.0,
+        20.0,
+        20.0,
+        163.0
+      ],
+      "performance_score": 13.84,
+      "customer_equity_score": 36.73,
+      "presence_score": 1.71,
+      "BSI": 17.07,
+      "data_flags": ""
+    },
+    {
+      "brand": "Vessel",
+      "revenue": 7428.09,
+      "units_sold": 193.0,
+      "transactions": 195,
+      "revenue_share": 0.0003982729423744087,
+      "unit_share": 0.00036862733113812257,
+      "on_hand_units": 19,
+      "units_received": 139,
+      "sell_through_true": 0.8693693693693694,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 38.09276923076923,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 19,
+      "months": [
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        19
+      ],
+      "monthly_received": [
+        35.0,
+        15.0,
+        25.0,
+        35.0,
+        29.0
+      ],
+      "performance_score": 12.03,
+      "customer_equity_score": 38.81,
+      "presence_score": 2.03,
+      "BSI": 17.07,
+      "data_flags": ""
+    },
+    {
+      "brand": "Anthem",
+      "revenue": 19442.5,
+      "units_sold": 560.0,
+      "transactions": 532,
+      "revenue_share": 0.0010424512468365946,
+      "unit_share": 0.0010695922561520656,
+      "on_hand_units": 300,
+      "units_received": 230,
+      "sell_through_true": 0.852359208523592,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.546052631578945,
+      "begin_on_hand_units": 300,
+      "end_on_hand_units": 300,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        300
+      ],
+      "monthly_received": [
+        230.0
+      ],
+      "performance_score": 12.57,
+      "customer_equity_score": 38.65,
+      "presence_score": 1.48,
+      "BSI": 17.07,
+      "data_flags": ""
+    },
+    {
+      "brand": "Jungle Gurl",
+      "revenue": 15822.0,
+      "units_sold": 668.0,
+      "transactions": 650,
+      "revenue_share": 0.0008483303910221731,
+      "unit_share": 0.001275870762695678,
+      "on_hand_units": 0,
+      "units_received": 384,
+      "sell_through_true": 0.9515669515669516,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.341538461538462,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        96.0,
+        96.0,
+        128.0,
+        64.0
+      ],
+      "performance_score": 13.84,
+      "customer_equity_score": 37.43,
+      "presence_score": 1.0,
+      "BSI": 17.06,
+      "data_flags": ""
+    },
+    {
+      "brand": "Papa & Barkley",
+      "revenue": 9430.79,
+      "units_sold": 215.0,
+      "transactions": 211,
+      "revenue_share": 0.000505651988898243,
+      "unit_share": 0.00041064702691552513,
+      "on_hand_units": 45,
+      "units_received": 104,
+      "sell_through_true": 0.8704453441295547,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 44.69568720379147,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 45,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        45
+      ],
+      "monthly_received": [
+        18.0,
+        86.0
+      ],
+      "performance_score": 12.14,
+      "customer_equity_score": 39.47,
+      "presence_score": 0.94,
+      "BSI": 16.98,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rin",
+      "revenue": 288.0,
+      "units_sold": 8.0,
+      "transactions": 8,
+      "revenue_share": 1.5441736355352412e-05,
+      "unit_share": 1.5279889373600936e-05,
+      "on_hand_units": 2,
+      "units_received": 10,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.0,
+      "begin_on_hand_units": 2,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        2
+      ],
+      "monthly_received": [
+        10.0
+      ],
+      "performance_score": 13.14,
+      "customer_equity_score": 38.6,
+      "presence_score": 0.1,
+      "BSI": 16.86,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Chef for Higher",
+      "revenue": 2810.05,
+      "units_sold": 62.0,
+      "transactions": 58,
+      "revenue_share": 0.00015066684460193766,
+      "unit_share": 0.00011841914264540725,
+      "on_hand_units": 3,
+      "units_received": 22,
+      "sell_through_true": 0.8493150684931506,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 48.449137931034485,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        3
+      ],
+      "monthly_received": [
+        2.0,
+        20.0
+      ],
+      "performance_score": 11.48,
+      "customer_equity_score": 39.84,
+      "presence_score": 0.97,
+      "BSI": 16.84,
+      "data_flags": ""
+    },
+    {
+      "brand": "lay up",
+      "revenue": 7738.5,
+      "units_sold": 1582.0,
+      "transactions": 1190,
+      "revenue_share": 0.0004149162388399119,
+      "unit_share": 0.0030215981236295848,
+      "on_hand_units": 361,
+      "units_received": 480,
+      "sell_through_true": 0.9192330040674027,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 6.502941176470588,
+      "begin_on_hand_units": 361,
+      "end_on_hand_units": 361,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        361
+      ],
+      "monthly_received": [
+        480.0
+      ],
+      "performance_score": 13.83,
+      "customer_equity_score": 35.65,
+      "presence_score": 2.0,
+      "BSI": 16.83,
+      "data_flags": ""
+    },
+    {
+      "brand": "Hashtag Honey",
+      "revenue": 6910.0,
+      "units_sold": 166.0,
+      "transactions": 160,
+      "revenue_share": 0.00037049443824821237,
+      "unit_share": 0.0003170577045022194,
+      "on_hand_units": 0,
+      "units_received": 140,
+      "sell_through_true": 0.8783068783068783,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 43.1875,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        100.0,
+        40.0
+      ],
+      "performance_score": 12.11,
+      "customer_equity_score": 39.32,
+      "presence_score": 0.55,
+      "BSI": 16.8,
+      "data_flags": ""
+    },
+    {
+      "brand": "Senior Moments",
+      "revenue": 30.0,
+      "units_sold": 1.0,
+      "transactions": 1,
+      "revenue_share": 1.6085142036825428e-06,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 0,
+      "units_received": 50,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 30.0,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        50.0
+      ],
+      "performance_score": 13.12,
+      "customer_equity_score": 38.0,
+      "presence_score": 0.45,
+      "BSI": 16.78,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Doctor Solomons",
+      "revenue": 5788.0,
+      "units_sold": 146.0,
+      "transactions": 142,
+      "revenue_share": 0.0003103360070304853,
+      "unit_share": 0.0002788579810682171,
+      "on_hand_units": 20,
+      "units_received": 44,
+      "sell_through_true": 0.8848484848484849,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 40.76056338028169,
+      "begin_on_hand_units": 20,
+      "end_on_hand_units": 20,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        20
+      ],
+      "monthly_received": [
+        44.0
+      ],
+      "performance_score": 12.14,
+      "customer_equity_score": 39.08,
+      "presence_score": 0.52,
+      "BSI": 16.73,
+      "data_flags": ""
+    },
+    {
+      "brand": "I AM GOODNESS",
+      "revenue": 5725.16,
+      "units_sold": 165.0,
+      "transactions": 159,
+      "revenue_share": 0.00030696670594517156,
+      "unit_share": 0.0003151477183305193,
+      "on_hand_units": 0,
+      "units_received": 96,
+      "sell_through_true": 0.8918918918918919,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 36.00729559748427,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        96.0
+      ],
+      "performance_score": 12.25,
+      "customer_equity_score": 38.6,
+      "presence_score": 0.61,
+      "BSI": 16.66,
+      "data_flags": ""
+    },
+    {
+      "brand": "Reunion",
+      "revenue": 3800.0,
+      "units_sold": 77.0,
+      "transactions": 75,
+      "revenue_share": 0.00020374513246645542,
+      "unit_share": 0.000147068935220909,
+      "on_hand_units": 20,
+      "units_received": 38,
+      "sell_through_true": 0.8279569892473119,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 50.666666666666664,
+      "begin_on_hand_units": 20,
+      "end_on_hand_units": 20,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        20
+      ],
+      "monthly_received": [
+        38.0
+      ],
+      "performance_score": 11.25,
+      "customer_equity_score": 40.07,
+      "presence_score": 0.42,
+      "BSI": 16.65,
+      "data_flags": ""
+    },
+    {
+      "brand": "Flintts Mints",
+      "revenue": 8850.76,
+      "units_sold": 1196.0,
+      "transactions": 1167,
+      "revenue_share": 0.00047455243911284346,
+      "unit_share": 0.00228434346135334,
+      "on_hand_units": 0,
+      "units_received": 261,
+      "sell_through_true": 0.9843621399176955,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 7.58419880034276,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        261.0
+      ],
+      "performance_score": 14.43,
+      "customer_equity_score": 35.76,
+      "presence_score": 0.45,
+      "BSI": 16.63,
+      "data_flags": ""
+    },
+    {
+      "brand": "Bic",
+      "revenue": 3803.6,
+      "units_sold": 1681.0,
+      "transactions": 1622,
+      "revenue_share": 0.00020393815417089732,
+      "unit_share": 0.0032106867546278966,
+      "on_hand_units": 325,
+      "units_received": 700,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 2.3450061652281136,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 325,
+      "months": [
+        "2025-07",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        325
+      ],
+      "monthly_received": [
+        600.0,
+        100.0
+      ],
+      "performance_score": 14.62,
+      "customer_equity_score": 35.23,
+      "presence_score": 0.65,
+      "BSI": 16.61,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Luci",
+      "revenue": 3556.4700000000003,
+      "units_sold": 139.0,
+      "transactions": 128,
+      "revenue_share": 0.0001906877503323618,
+      "unit_share": 0.00026548807786631624,
+      "on_hand_units": 0,
+      "units_received": 120,
+      "sell_through_true": 0.9455782312925171,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 27.784921875000002,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-05",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        60.0,
+        60.0
+      ],
+      "performance_score": 12.86,
+      "customer_equity_score": 37.78,
+      "presence_score": 0.26,
+      "BSI": 16.55,
+      "data_flags": ""
+    },
+    {
+      "brand": "CCELL",
+      "revenue": 6450.71,
+      "units_sold": 325.0,
+      "transactions": 321,
+      "revenue_share": 0.00034586862196123386,
+      "unit_share": 0.000620745505802538,
+      "on_hand_units": 1,
+      "units_received": 274,
+      "sell_through_true": 0.9259259259259259,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 20.095669781931463,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-03",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        1
+      ],
+      "monthly_received": [
+        180.0,
+        19.0,
+        75.0
+      ],
+      "performance_score": 12.86,
+      "customer_equity_score": 37.01,
+      "presence_score": 0.81,
+      "BSI": 16.49,
+      "data_flags": ""
+    },
+    {
+      "brand": "NYCE",
+      "revenue": 3855.27,
+      "units_sold": 96.0,
+      "transactions": 92,
+      "revenue_share": 0.0002067085518010399,
+      "unit_share": 0.0001833586724832112,
+      "on_hand_units": 0,
+      "units_received": 35,
+      "sell_through_true": 0.8495575221238938,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 41.905108695652174,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-07",
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        10.0,
+        25.0
+      ],
+      "performance_score": 11.55,
+      "customer_equity_score": 39.19,
+      "presence_score": 0.39,
+      "BSI": 16.49,
+      "data_flags": ""
+    },
+    {
+      "brand": "PETALS",
+      "revenue": 6667.67,
+      "units_sold": 763.0,
+      "transactions": 722,
+      "revenue_share": 0.000357501396682266,
+      "unit_share": 0.0014573194490071892,
+      "on_hand_units": 130,
+      "units_received": 240,
+      "sell_through_true": 0.9525593008739076,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 9.235,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 130,
+      "months": [
+        "2025-05",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        130
+      ],
+      "monthly_received": [
+        36.0,
+        60.0,
+        144.0
+      ],
+      "performance_score": 13.57,
+      "customer_equity_score": 35.92,
+      "presence_score": 0.9,
+      "BSI": 16.48,
+      "data_flags": ""
+    },
+    {
+      "brand": "MyHi",
+      "revenue": 7305.35,
+      "units_sold": 335.0,
+      "transactions": 316,
+      "revenue_share": 0.00039169197459574216,
+      "unit_share": 0.0006398453675195391,
+      "on_hand_units": 72,
+      "units_received": 192,
+      "sell_through_true": 0.9054054054054054,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 23.118196202531646,
+      "begin_on_hand_units": 72,
+      "end_on_hand_units": 72,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        72
+      ],
+      "monthly_received": [
+        192.0
+      ],
+      "performance_score": 12.62,
+      "customer_equity_score": 37.31,
+      "presence_score": 0.81,
+      "BSI": 16.48,
+      "data_flags": ""
+    },
+    {
+      "brand": "Oedo-Koh",
+      "revenue": 2998.05,
+      "units_sold": 133.0,
+      "transactions": 133,
+      "revenue_share": 0.00016074686694501493,
+      "unit_share": 0.00025402816083611553,
+      "on_hand_units": 2,
+      "units_received": 100,
+      "sell_through_true": 0.9366197183098591,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 22.54172932330827,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-01",
+        "2025-04",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "monthly_received": [
+        10.0,
+        10.0,
+        20.0,
+        60.0
+      ],
+      "performance_score": 12.71,
+      "customer_equity_score": 37.25,
+      "presence_score": 0.68,
+      "BSI": 16.46,
+      "data_flags": ""
+    },
+    {
+      "brand": "Ithaca Organics",
+      "revenue": 11833.81,
+      "units_sold": 553.0,
+      "transactions": 514,
+      "revenue_share": 0.0006344950489560171,
+      "unit_share": 0.0010562223529501646,
+      "on_hand_units": 416,
+      "units_received": 600,
+      "sell_through_true": 0.8494623655913979,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 23.022976653696496,
+      "begin_on_hand_units": 416,
+      "end_on_hand_units": 416,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        416
+      ],
+      "monthly_received": [
+        600.0
+      ],
+      "performance_score": 12.23,
+      "customer_equity_score": 37.3,
+      "presence_score": 1.13,
+      "BSI": 16.42,
+      "data_flags": ""
+    },
+    {
+      "brand": "Good Tide",
+      "revenue": 9650.33,
+      "units_sold": 408.0,
+      "transactions": 389,
+      "revenue_share": 0.0005174230958407918,
+      "unit_share": 0.0007792743580536477,
+      "on_hand_units": 269,
+      "units_received": 360,
+      "sell_through_true": 0.8553459119496856,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.808046272493574,
+      "begin_on_hand_units": 269,
+      "end_on_hand_units": 269,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        269
+      ],
+      "monthly_received": [
+        360.0
+      ],
+      "performance_score": 12.11,
+      "customer_equity_score": 37.48,
+      "presence_score": 1.03,
+      "BSI": 16.4,
+      "data_flags": ""
+    },
+    {
+      "brand": "Jane West",
+      "revenue": 3220.9,
+      "units_sold": 164.0,
+      "transactions": 162,
+      "revenue_share": 0.00017269544662137007,
+      "unit_share": 0.00031323773215881915,
+      "on_hand_units": 4,
+      "units_received": 100,
+      "sell_through_true": 0.9318181818181818,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 19.8820987654321,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-02",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        4
+      ],
+      "monthly_received": [
+        25.0,
+        75.0
+      ],
+      "performance_score": 12.68,
+      "customer_equity_score": 36.99,
+      "presence_score": 0.74,
+      "BSI": 16.39,
+      "data_flags": ""
+    },
+    {
+      "brand": "Blazy Susan",
+      "revenue": 3623.61,
+      "units_sold": 895.0,
+      "transactions": 783,
+      "revenue_share": 0.0001942876051202033,
+      "unit_share": 0.0017094376236716047,
+      "on_hand_units": 0,
+      "units_received": 676,
+      "sell_through_true": 0.9835164835164835,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 4.627854406130268,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-06",
+        "2025-08"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        250.0,
+        426.0
+      ],
+      "performance_score": 13.97,
+      "customer_equity_score": 35.46,
+      "presence_score": 0.32,
+      "BSI": 16.32,
+      "data_flags": ""
+    },
+    {
+      "brand": "Scandalous Chocolates",
+      "revenue": 2243.0,
+      "units_sold": 225.0,
+      "transactions": 197,
+      "revenue_share": 0.00012026324529533145,
+      "unit_share": 0.0004297468886325263,
+      "on_hand_units": 0,
+      "units_received": 40,
+      "sell_through_true": 0.9911894273127754,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 11.385786802030458,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-05"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        40.0
+      ],
+      "performance_score": 13.48,
+      "customer_equity_score": 36.14,
+      "presence_score": 0.23,
+      "BSI": 16.3,
+      "data_flags": ""
+    },
+    {
+      "brand": "Soft Power Sweets",
+      "revenue": 3318.0,
+      "units_sold": 120.0,
+      "transactions": 115,
+      "revenue_share": 0.00017790167092728923,
+      "unit_share": 0.00022919834060401402,
+      "on_hand_units": 0,
+      "units_received": 60,
+      "sell_through_true": 0.8633093525179856,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.85217391304348,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        60.0
+      ],
+      "performance_score": 11.74,
+      "customer_equity_score": 37.89,
+      "presence_score": 0.65,
+      "BSI": 16.25,
+      "data_flags": ""
+    },
+    {
+      "brand": "herb & Earth",
+      "revenue": 343.86,
+      "units_sold": 31.0,
+      "transactions": 31,
+      "revenue_share": 1.8436789802609308e-05,
+      "unit_share": 5.9209571322703626e-05,
+      "on_hand_units": 0,
+      "units_received": 30,
+      "sell_through_true": 1.0,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 11.092258064516129,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-01",
+        "2025-02"
+      ],
+      "monthly_on_hand": [
+        0,
+        0
+      ],
+      "monthly_received": [
+        30.0,
+        0.0
+      ],
+      "performance_score": 13.37,
+      "customer_equity_score": 36.11,
+      "presence_score": 0.16,
+      "BSI": 16.23,
+      "data_flags": ""
+    },
+    {
+      "brand": "Elements",
+      "revenue": 617.8,
+      "units_sold": 313.0,
+      "transactions": 289,
+      "revenue_share": 3.312466916783583e-05,
+      "unit_share": 0.0005978256717421366,
+      "on_hand_units": 103,
+      "units_received": 225,
+      "sell_through_true": 0.9873817034700315,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 2.137716262975778,
+      "begin_on_hand_units": 103,
+      "end_on_hand_units": 103,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        103
+      ],
+      "monthly_received": [
+        225.0
+      ],
+      "performance_score": 13.44,
+      "customer_equity_score": 35.21,
+      "presence_score": 0.48,
+      "BSI": 16.09,
+      "data_flags": ""
+    },
+    {
+      "brand": "Weed Water",
+      "revenue": 2678.05,
+      "units_sold": 633.0,
+      "transactions": 429,
+      "revenue_share": 0.00014358938210573446,
+      "unit_share": 0.0012090212466861739,
+      "on_hand_units": 121,
+      "units_received": 192,
+      "sell_through_true": 0.9134199134199135,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 6.242540792540793,
+      "begin_on_hand_units": 121,
+      "end_on_hand_units": 121,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        121
+      ],
+      "monthly_received": [
+        192.0
+      ],
+      "performance_score": 12.79,
+      "customer_equity_score": 35.62,
+      "presence_score": 0.84,
+      "BSI": 16.06,
+      "data_flags": ""
+    },
+    {
+      "brand": "Malachite",
+      "revenue": 741.6,
+      "units_sold": 42.0,
+      "transactions": 42,
+      "revenue_share": 3.976247111503246e-05,
+      "unit_share": 8.021941921140491e-05,
+      "on_hand_units": 3,
+      "units_received": 20,
+      "sell_through_true": 0.9333333333333333,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 17.65714285714286,
+      "begin_on_hand_units": 3,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        3
+      ],
+      "monthly_received": [
+        20.0
+      ],
+      "performance_score": 12.51,
+      "customer_equity_score": 36.77,
+      "presence_score": 0.06,
+      "BSI": 16.05,
+      "data_flags": ""
+    },
+    {
+      "brand": "Remedy Plant Lab",
+      "revenue": 2053.6,
+      "units_sold": 42.0,
+      "transactions": 42,
+      "revenue_share": 0.00011010815895608233,
+      "unit_share": 8.021941921140491e-05,
+      "on_hand_units": 24,
+      "units_received": 32,
+      "sell_through_true": 0.7241379310344828,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 48.89523809523809,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 24,
+      "months": [
+        "2025-05",
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        24
+      ],
+      "monthly_received": [
+        4.0,
+        5.0,
+        23.0
+      ],
+      "performance_score": 9.77,
+      "customer_equity_score": 39.89,
+      "presence_score": 0.55,
+      "BSI": 16.04,
+      "data_flags": ""
+    },
+    {
+      "brand": "Foria",
+      "revenue": 710.4,
+      "units_sold": 17.0,
+      "transactions": 16,
+      "revenue_share": 3.808961634320261e-05,
+      "unit_share": 3.2469764918901985e-05,
+      "on_hand_units": 2,
+      "units_received": 18,
+      "sell_through_true": 0.7727272727272727,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 44.4,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        2
+      ],
+      "monthly_received": [
+        6.0,
+        12.0
+      ],
+      "performance_score": 10.34,
+      "customer_equity_score": 39.44,
+      "presence_score": 0.16,
+      "BSI": 16.02,
+      "data_flags": ""
+    },
+    {
+      "brand": "Knack",
+      "revenue": 6004.900000000001,
+      "units_sold": 398.0,
+      "transactions": 388,
+      "revenue_share": 0.0003219655647231101,
+      "unit_share": 0.0007601744963366465,
+      "on_hand_units": 78,
+      "units_received": 300,
+      "sell_through_true": 0.8396624472573839,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 15.476546391752578,
+      "begin_on_hand_units": 78,
+      "end_on_hand_units": 78,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        78
+      ],
+      "monthly_received": [
+        300.0
+      ],
+      "performance_score": 11.75,
+      "customer_equity_score": 36.55,
+      "presence_score": 0.58,
+      "BSI": 15.84,
+      "data_flags": ""
+    },
+    {
+      "brand": "NWTN Home",
+      "revenue": 2289.54,
+      "units_sold": 34.0,
+      "transactions": 34,
+      "revenue_share": 0.0001227585869966443,
+      "unit_share": 6.493952983780397e-05,
+      "on_hand_units": 10,
+      "units_received": 22,
+      "sell_through_true": 0.5573770491803278,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 67.33941176470589,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 10,
+      "months": [
+        "2025-02",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        3,
+        10
+      ],
+      "monthly_received": [
+        3.0,
+        2.0,
+        3.0,
+        3.0,
+        11.0
+      ],
+      "performance_score": 7.55,
+      "customer_equity_score": 41.73,
+      "presence_score": 0.84,
+      "BSI": 15.79,
+      "data_flags": ""
+    },
+    {
+      "brand": "Canna Style",
+      "revenue": 2701.4,
+      "units_sold": 114.0,
+      "transactions": 114,
+      "revenue_share": 0.00014484134232760072,
+      "unit_share": 0.00021773842357381332,
+      "on_hand_units": 1,
+      "units_received": 70,
+      "sell_through_true": 0.8028169014084507,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 23.696491228070176,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-04",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "monthly_received": [
+        5.0,
+        9.0,
+        19.0,
+        21.0,
+        16.0
+      ],
+      "performance_score": 10.9,
+      "customer_equity_score": 37.37,
+      "presence_score": 0.68,
+      "BSI": 15.77,
+      "data_flags": ""
+    },
+    {
+      "brand": "Tracey Tanner",
+      "revenue": 0.01,
+      "units_sold": 1.0,
+      "transactions": 1,
+      "revenue_share": 5.361714012275143e-10,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 0,
+      "units_received": 35,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.01,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-02"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        35.0
+      ],
+      "performance_score": 13.12,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.03,
+      "BSI": 15.76,
+      "data_flags": "\u26a0 No Receipts (monthly)"
+    },
+    {
+      "brand": "Picc",
+      "revenue": 0.25,
+      "units_sold": 25.0,
+      "transactions": 25,
+      "revenue_share": 1.3404285030687857e-08,
+      "unit_share": 4.774965429250292e-05,
+      "on_hand_units": 0.0,
+      "units_received": 0.0,
+      "sell_through_true": null,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.01,
+      "begin_on_hand_units": 0.0,
+      "end_on_hand_units": 0.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        0
+      ],
+      "performance_score": 13.14,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.0,
+      "BSI": 15.76,
+      "data_flags": "\u26a0 No Receipts (monthly), \u26a0 No On Hand (monthly)"
+    },
+    {
+      "brand": "Candy Relics",
+      "revenue": 203.0,
+      "units_sold": 3.0,
+      "transactions": 3,
+      "revenue_share": 1.0884279444918539e-05,
+      "unit_share": 5.72995851510035e-06,
+      "on_hand_units": 0,
+      "units_received": 3,
+      "sell_through_true": 0.6,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 67.66666666666667,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        3.0
+      ],
+      "performance_score": 8.01,
+      "customer_equity_score": 41.77,
+      "presence_score": 0.06,
+      "BSI": 15.75,
+      "data_flags": ""
+    },
+    {
+      "brand": "Rogue Paq",
+      "revenue": 608.72,
+      "units_sold": 11.0,
+      "transactions": 11,
+      "revenue_share": 3.263782553552125e-05,
+      "unit_share": 2.1009847888701285e-05,
+      "on_hand_units": 6,
+      "units_received": 17,
+      "sell_through_true": 0.6470588235294118,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 55.33818181818182,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 6,
+      "months": [
+        "2025-02",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        6
+      ],
+      "monthly_received": [
+        1.0,
+        16.0
+      ],
+      "performance_score": 8.66,
+      "customer_equity_score": 40.53,
+      "presence_score": 0.29,
+      "BSI": 15.71,
+      "data_flags": ""
+    },
+    {
+      "brand": "Kannastor",
+      "revenue": 360.0,
+      "units_sold": 4.0,
+      "transactions": 4,
+      "revenue_share": 1.9302170444190513e-05,
+      "unit_share": 7.639944686800468e-06,
+      "on_hand_units": 8,
+      "units_received": 48,
+      "sell_through_true": 0.4444444444444444,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 90.0,
+      "begin_on_hand_units": 8,
+      "end_on_hand_units": 8,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        8
+      ],
+      "monthly_received": [
+        48.0
+      ],
+      "performance_score": 5.94,
+      "customer_equity_score": 44.0,
+      "presence_score": 0.1,
+      "BSI": 15.61,
+      "data_flags": ""
+    },
+    {
+      "brand": "Gentlemen Smugglers",
+      "revenue": 0.61,
+      "units_sold": 61.0,
+      "transactions": 56,
+      "revenue_share": 3.270645547487837e-08,
+      "unit_share": 0.00011650915647370713,
+      "on_hand_units": 0,
+      "units_received": 65,
+      "sell_through_true": 0.9384615384615385,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.010892857142857143,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-03",
+        "2025-05",
+        "2025-06"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        25.0,
+        20.0,
+        20.0
+      ],
+      "performance_score": 12.56,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.1,
+      "BSI": 15.55,
+      "data_flags": ""
+    },
+    {
+      "brand": "boveda",
+      "revenue": 221.5,
+      "units_sold": 116.0,
+      "transactions": 66,
+      "revenue_share": 1.1876196537189441e-05,
+      "unit_share": 0.00022155839591721355,
+      "on_hand_units": 0,
+      "units_received": 125,
+      "sell_through_true": 0.9133858267716536,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 3.356060606060606,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        125.0
+      ],
+      "performance_score": 12.28,
+      "customer_equity_score": 35.34,
+      "presence_score": 0.03,
+      "BSI": 15.52,
+      "data_flags": ""
+    },
+    {
+      "brand": "Jeeter",
+      "revenue": 4184.09,
+      "units_sold": 325.0,
+      "transactions": 300,
+      "revenue_share": 0.00022433893981620303,
+      "unit_share": 0.000620745505802538,
+      "on_hand_units": 72.0,
+      "units_received": 468.0,
+      "sell_through_true": 0.6944444444444444,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 13.946966666666667,
+      "begin_on_hand_units": 72.0,
+      "end_on_hand_units": 72.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        72.0
+      ],
+      "monthly_received": [
+        468.0
+      ],
+      "performance_score": 9.68,
+      "customer_equity_score": 36.39,
+      "presence_score": 2.32,
+      "BSI": 15.49,
+      "data_flags": ""
+    },
+    {
+      "brand": "The Healing Rose",
+      "revenue": 570.6,
+      "units_sold": 53.0,
+      "transactions": 52,
+      "revenue_share": 3.059394015404197e-05,
+      "unit_share": 0.0001012292671001062,
+      "on_hand_units": 0,
+      "units_received": 55,
+      "sell_through_true": 0.8548387096774194,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 10.973076923076924,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-03",
+        "2025-04",
+        "2025-07"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0
+      ],
+      "monthly_received": [
+        10.0,
+        40.0,
+        5.0
+      ],
+      "performance_score": 11.46,
+      "customer_equity_score": 36.1,
+      "presence_score": 0.19,
+      "BSI": 15.47,
+      "data_flags": ""
+    },
+    {
+      "brand": "MJ Arsenal",
+      "revenue": 744.3,
+      "units_sold": 25.0,
+      "transactions": 25,
+      "revenue_share": 3.990723739336389e-05,
+      "unit_share": 4.774965429250292e-05,
+      "on_hand_units": 2,
+      "units_received": 8,
+      "sell_through_true": 0.7142857142857143,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 29.772,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        2
+      ],
+      "monthly_received": [
+        6.0,
+        2.0
+      ],
+      "performance_score": 9.57,
+      "customer_equity_score": 37.98,
+      "presence_score": 0.32,
+      "BSI": 15.32,
+      "data_flags": ""
+    },
+    {
+      "brand": "Holk",
+      "revenue": 503.1,
+      "units_sold": 4.0,
+      "transactions": 6,
+      "revenue_share": 2.6974783195756244e-05,
+      "unit_share": 7.639944686800468e-06,
+      "on_hand_units": 6,
+      "units_received": 8,
+      "sell_through_true": 0.4,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 83.85000000000001,
+      "begin_on_hand_units": 6,
+      "end_on_hand_units": 6,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        6
+      ],
+      "monthly_received": [
+        8.0
+      ],
+      "performance_score": 5.36,
+      "customer_equity_score": 43.38,
+      "presence_score": 0.16,
+      "BSI": 15.21,
+      "data_flags": ""
+    },
+    {
+      "brand": "Honest",
+      "revenue": 895.85,
+      "units_sold": 18.0,
+      "transactions": 18,
+      "revenue_share": 4.803291497896687e-05,
+      "unit_share": 3.4379751090602105e-05,
+      "on_hand_units": 4,
+      "units_received": 24,
+      "sell_through_true": 0.5454545454545454,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 49.769444444444446,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-04",
+        "2025-05",
+        "2025-08",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "monthly_received": [
+        4.0,
+        4.0,
+        5.0,
+        11.0
+      ],
+      "performance_score": 7.32,
+      "customer_equity_score": 39.98,
+      "presence_score": 0.39,
+      "BSI": 15.04,
+      "data_flags": ""
+    },
+    {
+      "brand": "High Peaks",
+      "revenue": 4028.2,
+      "units_sold": 366.0,
+      "transactions": 310,
+      "revenue_share": 0.0002159805638424673,
+      "unit_share": 0.0006990549388422428,
+      "on_hand_units": 20.0,
+      "units_received": 520.0,
+      "sell_through_true": 0.7038461538461539,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 12.994193548387097,
+      "begin_on_hand_units": 20.0,
+      "end_on_hand_units": 20.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        20.0
+      ],
+      "monthly_received": [
+        520.0
+      ],
+      "performance_score": 9.83,
+      "customer_equity_score": 36.3,
+      "presence_score": 0.65,
+      "BSI": 15.02,
+      "data_flags": ""
+    },
+    {
+      "brand": "GRAV",
+      "revenue": 889.8,
+      "units_sold": 31.0,
+      "transactions": 31,
+      "revenue_share": 4.770853128122422e-05,
+      "unit_share": 5.9209571322703626e-05,
+      "on_hand_units": 3,
+      "units_received": 19,
+      "sell_through_true": 0.6326530612244898,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 28.703225806451613,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-03",
+        "2025-04",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        0,
+        3
+      ],
+      "monthly_received": [
+        1.0,
+        4.0,
+        14.0
+      ],
+      "performance_score": 8.49,
+      "customer_equity_score": 37.87,
+      "presence_score": 0.58,
+      "BSI": 14.93,
+      "data_flags": ""
+    },
+    {
+      "brand": "Tsubota Pearl",
+      "revenue": 672.6,
+      "units_sold": 18.0,
+      "transactions": 18,
+      "revenue_share": 3.606288844656261e-05,
+      "unit_share": 3.4379751090602105e-05,
+      "on_hand_units": 12,
+      "units_received": 32,
+      "sell_through_true": 0.5806451612903226,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 37.36666666666667,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 12,
+      "months": [
+        "2025-06",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        12
+      ],
+      "monthly_received": [
+        5.0,
+        27.0
+      ],
+      "performance_score": 7.78,
+      "customer_equity_score": 38.74,
+      "presence_score": 0.32,
+      "BSI": 14.83,
+      "data_flags": ""
+    },
+    {
+      "brand": "Vlasic Labs",
+      "revenue": 404.5,
+      "units_sold": 16.0,
+      "transactions": 13,
+      "revenue_share": 2.1688133179652954e-05,
+      "unit_share": 3.055977874720187e-05,
+      "on_hand_units": 31,
+      "units_received": 50,
+      "sell_through_true": 0.6153846153846154,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 31.115384615384617,
+      "begin_on_hand_units": 31,
+      "end_on_hand_units": 31,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        31
+      ],
+      "monthly_received": [
+        50.0
+      ],
+      "performance_score": 8.23,
+      "customer_equity_score": 38.11,
+      "presence_score": 0.23,
+      "BSI": 14.79,
+      "data_flags": ""
+    },
+    {
+      "brand": "La Jolie Muse",
+      "revenue": 102.0,
+      "units_sold": 3.0,
+      "transactions": 3,
+      "revenue_share": 5.4689482925206454e-06,
+      "unit_share": 5.72995851510035e-06,
+      "on_hand_units": 2,
+      "units_received": 5,
+      "sell_through_true": 0.6,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 34.0,
+      "begin_on_hand_units": 2,
+      "end_on_hand_units": 2,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        2
+      ],
+      "monthly_received": [
+        5.0
+      ],
+      "performance_score": 8.01,
+      "customer_equity_score": 38.4,
+      "presence_score": 0.06,
+      "BSI": 14.74,
+      "data_flags": ""
+    },
+    {
+      "brand": "Futurola",
+      "revenue": 348.0,
+      "units_sold": 12.0,
+      "transactions": 12,
+      "revenue_share": 1.8658764762717495e-05,
+      "unit_share": 2.29198340604014e-05,
+      "on_hand_units": 37,
+      "units_received": 50,
+      "sell_through_true": 0.6,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 29.0,
+      "begin_on_hand_units": 37,
+      "end_on_hand_units": 37,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        37
+      ],
+      "monthly_received": [
+        50.0
+      ],
+      "performance_score": 8.02,
+      "customer_equity_score": 37.9,
+      "presence_score": 0.23,
+      "BSI": 14.65,
+      "data_flags": ""
+    },
+    {
+      "brand": "urbanXtracts",
+      "revenue": 0.1,
+      "units_sold": 10.0,
+      "transactions": 10,
+      "revenue_share": 5.361714012275143e-09,
+      "unit_share": 1.909986171700117e-05,
+      "on_hand_units": 0,
+      "units_received": 13,
+      "sell_through_true": 0.7142857142857143,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.01,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2025-03"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        13.0
+      ],
+      "performance_score": 9.53,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.55,
+      "BSI": 14.48,
+      "data_flags": ""
+    },
+    {
+      "brand": "The New Savant",
+      "revenue": 84.0,
+      "units_sold": 2.0,
+      "transactions": 2,
+      "revenue_share": 4.50383977031112e-06,
+      "unit_share": 3.819972343400234e-06,
+      "on_hand_units": 1,
+      "units_received": 3,
+      "sell_through_true": 0.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 42.0,
+      "begin_on_hand_units": 1,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        1
+      ],
+      "monthly_received": [
+        3.0
+      ],
+      "performance_score": 6.67,
+      "customer_equity_score": 39.2,
+      "presence_score": 0.06,
+      "BSI": 14.45,
+      "data_flags": ""
+    },
+    {
+      "brand": "DaySavers",
+      "revenue": 597.0,
+      "units_sold": 147.0,
+      "transactions": 133,
+      "revenue_share": 3.2009432653282604e-05,
+      "unit_share": 0.0002807679672399172,
+      "on_hand_units": 21.0,
+      "units_received": 230.0,
+      "sell_through_true": 0.6391304347826087,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 4.488721804511278,
+      "begin_on_hand_units": 21.0,
+      "end_on_hand_units": 21.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        21.0
+      ],
+      "monthly_received": [
+        230.0
+      ],
+      "performance_score": 8.66,
+      "customer_equity_score": 35.45,
+      "presence_score": 0.68,
+      "BSI": 14.3,
+      "data_flags": ""
+    },
+    {
+      "brand": "MK Lighters",
+      "revenue": 201.0,
+      "units_sold": 67.0,
+      "transactions": 66,
+      "revenue_share": 1.0777045164673037e-05,
+      "unit_share": 0.00012796907350390784,
+      "on_hand_units": 0,
+      "units_received": 500,
+      "sell_through_true": 0.6633663366336634,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 3.0454545454545454,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 0,
+      "months": [
+        "2024-12"
+      ],
+      "monthly_on_hand": [
+        0
+      ],
+      "monthly_received": [
+        500.0
+      ],
+      "performance_score": 8.91,
+      "customer_equity_score": 35.3,
+      "presence_score": 0.06,
+      "BSI": 14.17,
+      "data_flags": ""
+    },
+    {
+      "brand": "Flower Mill",
+      "revenue": 197.75,
+      "units_sold": 6.0,
+      "transactions": 8,
+      "revenue_share": 1.0602789459274094e-05,
+      "unit_share": 1.14599170302007e-05,
+      "on_hand_units": 4.0,
+      "units_received": 12.0,
+      "sell_through_true": 0.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 24.71875,
+      "begin_on_hand_units": 4.0,
+      "end_on_hand_units": 4.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        4.0
+      ],
+      "monthly_received": [
+        12.0
+      ],
+      "performance_score": 6.68,
+      "customer_equity_score": 37.47,
+      "presence_score": 0.13,
+      "BSI": 13.95,
+      "data_flags": ""
+    },
+    {
+      "brand": "SirEEL",
+      "revenue": 95.0,
+      "units_sold": 4.0,
+      "transactions": 4,
+      "revenue_share": 5.093628311661386e-06,
+      "unit_share": 7.639944686800468e-06,
+      "on_hand_units": 6,
+      "units_received": 0,
+      "sell_through_true": 0.4444444444444444,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 23.75,
+      "begin_on_hand_units": 6,
+      "end_on_hand_units": 6,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        6
+      ],
+      "monthly_received": [
+        0.0
+      ],
+      "performance_score": 5.93,
+      "customer_equity_score": 37.38,
+      "presence_score": 0.16,
+      "BSI": 13.63,
+      "data_flags": ""
+    },
+    {
+      "brand": "Ghost",
+      "revenue": 0.0,
+      "units_sold": 1.0,
+      "transactions": 1,
+      "revenue_share": 0.0,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 1.0,
+      "units_received": 2.0,
+      "sell_through_true": 0.5,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.0,
+      "begin_on_hand_units": 1.0,
+      "end_on_hand_units": 1.0,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        1.0
+      ],
+      "monthly_received": [
+        2.0
+      ],
+      "performance_score": 6.67,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.03,
+      "BSI": 13.18,
+      "data_flags": ""
+    },
+    {
+      "brand": "LuvBuds",
+      "revenue": 95.4,
+      "units_sold": 16.0,
+      "transactions": 16,
+      "revenue_share": 5.115075167710487e-06,
+      "unit_share": 3.055977874720187e-05,
+      "on_hand_units": 3,
+      "units_received": 50,
+      "sell_through_true": 0.3404255319148936,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 5.9625,
+      "begin_on_hand_units": 3,
+      "end_on_hand_units": 3,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        3
+      ],
+      "monthly_received": [
+        50.0
+      ],
+      "performance_score": 4.56,
+      "customer_equity_score": 35.6,
+      "presence_score": 0.65,
+      "BSI": 12.69,
+      "data_flags": ""
+    },
+    {
+      "brand": "Snobby Dankins",
+      "revenue": 0.4,
+      "units_sold": 4.0,
+      "transactions": 4,
+      "revenue_share": 2.144685604910057e-08,
+      "unit_share": 7.639944686800468e-06,
+      "on_hand_units": 5,
+      "units_received": 8,
+      "sell_through_true": 0.36363636363636365,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 0.1,
+      "begin_on_hand_units": 0,
+      "end_on_hand_units": 5,
+      "months": [
+        "2025-03",
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        0,
+        5
+      ],
+      "monthly_received": [
+        4.0,
+        4.0
+      ],
+      "performance_score": 4.85,
+      "customer_equity_score": 35.01,
+      "presence_score": 0.26,
+      "BSI": 12.52,
+      "data_flags": ""
+    },
+    {
+      "brand": "Candle By Design",
+      "revenue": 80.0,
+      "units_sold": 1.0,
+      "transactions": 3,
+      "revenue_share": 4.289371209820114e-06,
+      "unit_share": 1.909986171700117e-06,
+      "on_hand_units": 1,
+      "units_received": 3,
+      "sell_through_true": 0.2,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": 0.0,
+      "avg_spend_per_txn": 26.666666666666668,
+      "begin_on_hand_units": 1,
+      "end_on_hand_units": 1,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        1
+      ],
+      "monthly_received": [
+        3.0
+      ],
+      "performance_score": 2.67,
+      "customer_equity_score": 37.67,
+      "presence_score": 0.1,
+      "BSI": 12.4,
+      "data_flags": ""
+    },
+    {
+      "brand": "Snugbox",
+      "revenue": 0.0,
+      "units_sold": 0.0,
+      "transactions": 2,
+      "revenue_share": 0.0,
+      "unit_share": 0.0,
+      "on_hand_units": 4,
+      "units_received": 7,
+      "sell_through_true": 0.0,
+      "loyalty_redemptions": 0,
+      "redeems_per_1k_units": null,
+      "avg_spend_per_txn": 0.0,
+      "begin_on_hand_units": 4,
+      "end_on_hand_units": 4,
+      "months": [
+        "2025-09"
+      ],
+      "monthly_on_hand": [
+        4
+      ],
+      "monthly_received": [
+        7.0
+      ],
+      "performance_score": 0.0,
+      "customer_equity_score": 35.0,
+      "presence_score": 0.13,
+      "BSI": 10.54,
+      "data_flags": ""
+    }
+  ]
+}
