@@ -103,11 +103,33 @@ function computeAvgBei(rows) {
 
   // File readers
   dtbkFileInput.addEventListener('change', async (e) => {
+    // When a user uploads their own category mix CSV we need to infer which
+    // column contains the DTBK percentages. Many exports label this
+    // differently (e.g. "DTBK %", "Mix", "Pct"). We detect the first
+    // numeric column other than the category.
     const file = e.target.files[0];
     if (!file) return;
     const text = await file.text();
     const rows = parseCSV(text);
-    dtbkMap = rowsToMap(rows, 'DTBK_Pct');
+    if (!rows.length) {
+      dtbkMap = {};
+      updateOutputs();
+      return;
+    }
+    // Determine the value column: prefer headers containing pct/mix/dtbk/%
+    const headers = Object.keys(rows[0]);
+    let valueKey = null;
+    // search for common patterns
+    const patterns = [/pct/i, /mix/i, /dtbk/i, /share/i, /%/];
+    for (const pat of patterns) {
+      valueKey = headers.find(h => pat.test(h));
+      if (valueKey) break;
+    }
+    // Fallback: choose the second column if present (index 1)
+    if (!valueKey) {
+      valueKey = headers[1];
+    }
+    dtbkMap = rowsToMap(rows, valueKey);
     updateOutputs();
   });
 
@@ -124,9 +146,18 @@ function computeAvgBei(rows) {
       }
     } else {
       const rows = parseCSV(text);
-      // competitor CSV may have Category,Competitor_Pct
-      const key = Object.keys(rows[0] || {}).filter(h => /pct/i.test(h))[0] || Object.keys(rows[0] || {})[1];
-      compMap = rowsToMap(rows, key);
+      // competitor CSV may have a variety of column names (e.g. "Competitor_Pct",
+      // "Market Mix", "OCM %"). Detect the first header that looks like a
+      // percentage column. Use the second column as a fallback.
+      const headers = Object.keys(rows[0] || {});
+      let valueKey = null;
+      const patterns = [/comp/i, /bench/i, /ocm/i, /market/i, /pct/i, /mix/i, /share/i, /%/];
+      for (const pat of patterns) {
+        valueKey = headers.find(h => pat.test(h));
+        if (valueKey) break;
+      }
+      if (!valueKey) valueKey = headers[1];
+      compMap = rowsToMap(rows, valueKey);
     }
     updateOutputs();
   });
