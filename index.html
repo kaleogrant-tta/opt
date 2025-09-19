@@ -1,1 +1,73 @@
-<!doctype html><html><body><h1>Optimizer</h1><script src='app.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Mix Optimizer</title>
+  <!-- Load a simple stylesheet to improve readability -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Chart.js is loaded from a CDN. When served via GitHub Pages the browser
+       will fetch this asset. If the network is unavailable the rest of the
+       optimiser still works, only the bar chart will be missing. -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Menu Mix Optimizer</h1>
+  <!-- Controls section: allows overriding of defaults and tuning weights -->
+  <section id="controls">
+    <p>
+      The optimiser blends your own sales mix with market benchmarks and optional
+      brand strength to suggest an ideal category allocation. You can upload
+      files to override any of the default values pre‑loaded from the data
+      directory. Leave inputs blank to use the defaults.
+    </p>
+    <div class="file-row">
+      <label>DTBK % (CSV, columns: Category,DTBK_Pct)
+        <input type="file" id="dtbkFile" accept=".csv" />
+      </label>
+    </div>
+    <div class="file-row">
+      <label>Competitor % (JSON or CSV)
+        <input type="file" id="compFile" accept=".json,.csv" />
+      </label>
+    </div>
+    <div class="file-row">
+      <label>Brand Strength (CSV, columns: Brand,Category,BSI)
+        <input type="file" id="beiFile" accept=".csv" />
+      </label>
+    </div>
+    <div class="file-row">
+      <label>SKU Counts (CSV, columns: Category,Current_SKUs)
+        <input type="file" id="skuFile" accept=".csv" />
+      </label>
+    </div>
+    <div class="weights-row">
+      <label>Weight DTBK
+        <input type="number" id="wtDTBK" step="0.01" value="0.4" />
+      </label>
+      <label>Weight Competitor
+        <input type="number" id="wtComp" step="0.01" value="0.4" />
+      </label>
+      <label>Weight BEI
+        <input type="number" id="wtBEI" step="0.01" value="0.2" />
+      </label>
+    </div>
+    <div class="weights-row">
+      <label>Total SKUs
+        <input type="number" id="totalSkusInput" min="0" />
+      </label>
+    </div>
+    <div class="button-row">
+      <button id="runBtn">Run Optimisation</button>
+    </div>
+  </section>
+  <!-- Results section -->
+  <section id="resultsSection">
+    <h2>Results</h2>
+    <div id="resultsDiv"></div>
+    <canvas id="chartCanvas" width="800" height="400"></canvas>
+  </section>
+  <!-- Main logic -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,42 +1,315 @@
-
-// === Category normalization (merge Vape = Disposable = Vapor Pens) ===
-function canonCategory(c){
-  if(!c) return "";
-  c = String(c).trim().toLowerCase();
-  if(c.includes("vape") || c.includes("disposable")) return "Vapor Pens";
-  if(c.startsWith("pre")) return "Pre-Rolls";
-  if(c.includes("flower")) return "Flower";
-  if(c.includes("edible")) return "Edibles";
-  if(c.includes("beverage")) return "Beverages";
-  if(c.includes("concentrate")) return "Concentrates";
-  if(c.includes("tincture")) return "Tinctures";
-  if(c.includes("topical")) return "Topicals";
-  if(c.startsWith("cbd")) return "CBD";
-  return c.charAt(0).toUpperCase()+c.slice(1);
+// Simple helper to normalise category names
+function canonCategory(c) {
+  if (!c) return '';
+  const s = String(c).trim().toLowerCase();
+  // merge vape and disposable under Vapor Pens
+  if (s.includes('vape') || s.includes('disposable')) return 'Vapor Pens';
+  if (s.startsWith('pre')) return 'Pre-Rolls';
+  if (s.includes('flower')) return 'Flower';
+  if (s.includes('edible')) return 'Edibles';
+  if (s.includes('beverage')) return 'Beverages';
+  if (s.includes('concentrate')) return 'Concentrates';
+  if (s.includes('tincture')) return 'Tinctures';
+  if (s.includes('topical')) return 'Topicals';
+  if (s.startsWith('cbd')) return 'CBD';
+  // accessories and other categories remain as given
+  // capitalise first letter for display
+  return s.charAt(0).toUpperCase() + s.slice(1);
 }
-function aggregateByCanon(mapObj){
+
+// Convert an array of Category->value pairs into an aggregated object keyed by canonical category
+function aggregateMap(map) {
   const out = {};
-  Object.entries(mapObj||{}).forEach(([k,v])=>{
+  if (!map) return out;
+  Object.entries(map).forEach(([k, v]) => {
     const key = canonCategory(k);
-    const val = Number(v)||0;
-    out[key] = (out[key]||0) + val;
+    const val = Number(v) || 0;
+    out[key] = (out[key] || 0) + val;
   });
   return out;
 }
 
-function renderCompTable(_){}; function loadCompetitors(){}
-async function getDTBK(){return {}}
-async function getBEI(){return {}}
-async function getSKUs(){return {}}
-function getComp(){return {}}
-function renderOut(_){}; function drawChart(_){};
-function autoloadPreload(){}
-document.getElementById?.('runBtn')?.addEventListener('click', async ()=>{
-  const dtbkMap = await getDTBK();
-  const compMap = getComp();
-  const beiMap  = await getBEI();
-  const skuMap  = await getSKUs();
-  const cats = Array.from(new Set([...Object.keys(compMap),...Object.keys(dtbkMap),...Object.keys(beiMap||{}),...Object.keys(skuMap||{})]));
-  const rows = cats.map(cat=>({Category:cat, dtbk:dtbkMap[cat]||0, comp:compMap[cat]||0, bei:beiMap[cat]||0, opt:0, skus:skuMap[cat]||0, target:0, gap:0}));
-  renderOut(rows); drawChart(rows);
-});
+// Parse CSV text into an array of objects keyed by headers
+function parseCSV(text) {
+  const lines = text.trim().split(/\r?\n/).filter(Boolean);
+  if (!lines.length) return [];
+  const headers = lines.shift().split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/).map(h => h.trim());
+  return lines.map(line => {
+    const cols = line.split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/);
+    const obj = {};
+    headers.forEach((h, idx) => {
+      obj[h.trim()] = cols[idx] !== undefined ? cols[idx].replace(/^"|"$/g, '').trim() : '';
+    });
+    return obj;
+  });
+}
+
+// Convert array of objects into a map keyed by Category field and value from provided key
+function rowsToMap(rows, valueKey) {
+  const map = {};
+  rows.forEach(row => {
+    const cat = row['Category'] || row['Category '];
+    if (!cat) return;
+    map[cat] = parseFloat(row[valueKey]) || 0;
+  });
+  return map;
+}
+
+// Compute average BEI per category from an array of brand rows
+function computeAvgBei(rows) {
+  const sums = {};
+  const counts = {};
+  rows.forEach(row => {
+    const cat = row['Category'];
+    const bsiVal = parseFloat(row['BSI']);
+    if (!cat || isNaN(bsiVal)) return;
+    const canonical = canonCategory(cat);
+    sums[canonical] = (sums[canonical] || 0) + bsiVal;
+    counts[canonical] = (counts[canonical] || 0) + 1;
+  });
+  const avg = {};
+  Object.keys(sums).forEach(key => {
+    avg[key] = sums[key] / counts[key];
+  });
+  return avg;
+}
+
+(function () {
+  // Data state
+  let dtbkMap = {};
+  let compMap = {};
+  let skuMap = {};
+  let avgBeiMap = {};
+  let totalSkus = 0;
+
+  // Chart instance holder
+  let chartInstance;
+
+  // DOM elements
+  const dtbkFileInput = document.getElementById('dtbkFile');
+  const compFileInput = document.getElementById('compFile');
+  const beiFileInput = document.getElementById('beiFile');
+  const skuFileInput = document.getElementById('skuFile');
+  const wtDTBKInput = document.getElementById('wtDTBK');
+  const wtCompInput = document.getElementById('wtComp');
+  const wtBEIInput = document.getElementById('wtBEI');
+  const totalSkusInput = document.getElementById('totalSkusInput');
+  const runBtn = document.getElementById('runBtn');
+  const resultsDiv = document.getElementById('resultsDiv');
+  const canvas = document.getElementById('chartCanvas');
+
+  // Utility to sum an object's values
+  const sumValues = obj => Object.values(obj).reduce((a, b) => a + Number(b || 0), 0);
+
+  // File readers
+  dtbkFileInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const text = await file.text();
+    const rows = parseCSV(text);
+    dtbkMap = rowsToMap(rows, 'DTBK_Pct');
+    updateOutputs();
+  });
+
+  compFileInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const ext = file.name.split('.').pop().toLowerCase();
+    const text = await file.text();
+    if (ext === 'json') {
+      try {
+        compMap = JSON.parse(text);
+      } catch (err) {
+        console.error('Invalid JSON:', err);
+      }
+    } else {
+      const rows = parseCSV(text);
+      // competitor CSV may have Category,Competitor_Pct
+      const key = Object.keys(rows[0] || {}).filter(h => /pct/i.test(h))[0] || Object.keys(rows[0] || {})[1];
+      compMap = rowsToMap(rows, key);
+    }
+    updateOutputs();
+  });
+
+  beiFileInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const text = await file.text();
+    const rows = parseCSV(text);
+    avgBeiMap = computeAvgBei(rows);
+    updateOutputs();
+  });
+
+  skuFileInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const text = await file.text();
+    const rows = parseCSV(text);
+    skuMap = {};
+    rows.forEach(row => {
+      const cat = row['Category'];
+      const cnt = parseFloat(row['Current_SKUs']);
+      if (cat) skuMap[cat] = cnt;
+    });
+    // update total SKUs input if not set
+    totalSkus = sumValues(aggregateMap(skuMap));
+    if (!totalSkusInput.value) totalSkusInput.value = totalSkus;
+    updateOutputs();
+  });
+
+  runBtn.addEventListener('click', () => {
+    updateOutputs();
+  });
+
+  function updateOutputs() {
+    // Determine effective weights
+    const wDT = parseFloat(wtDTBKInput.value) || 0;
+    const wCP = parseFloat(wtCompInput.value) || 0;
+    const wBE = parseFloat(wtBEIInput.value) || 0;
+    const weightSum = wDT + wCP + wBE;
+
+    // Use local copies of aggregated maps to avoid mutating originals
+    const dtMap = aggregateMap(dtbkMap);
+    const cpMap = aggregateMap(compMap);
+    const beiMap = aggregateMap(avgBeiMap);
+    const skMap = aggregateMap(skuMap);
+
+    // Compute totalSkus from input or derived
+    let total = parseFloat(totalSkusInput.value);
+    if (!total || total <= 0) {
+      total = sumValues(skMap);
+      totalSkusInput.value = total;
+    }
+
+    // Build rows
+    const categories = Array.from(new Set([
+      ...Object.keys(dtMap),
+      ...Object.keys(cpMap),
+      ...Object.keys(beiMap),
+      ...Object.keys(skMap)
+    ]));
+    const rows = categories.map(cat => {
+      const dtVal = dtMap[cat] || 0;
+      const cpVal = cpMap[cat] || 0;
+      const beiVal = beiMap[cat] || 0;
+      const optVal = weightSum > 0 ? ((wDT * dtVal + wCP * cpVal + wBE * beiVal) / weightSum) : 0;
+      const skVal = skMap[cat] || 0;
+      const target = total > 0 ? (optVal * total / 100) : 0;
+      const gap = target - skVal;
+      return {
+        Category: cat,
+        dtbk: dtVal.toFixed(1),
+        comp: cpVal.toFixed(1),
+        bei: beiVal ? beiVal.toFixed(1) : '0.0',
+        opt: optVal.toFixed(1),
+        skus: Math.round(skVal),
+        target: Math.round(target),
+        gap: Math.round(gap)
+      };
+    });
+    renderTable(rows);
+    drawBarChart(rows);
+  }
+
+  function renderTable(rows) {
+    let html = '<table><thead><tr>' +
+      '<th>Category</th>' +
+      '<th>DTBK %</th>' +
+      '<th>Competitor %</th>' +
+      '<th>BEI</th>' +
+      '<th>Optimised %</th>' +
+      '<th>Current SKUs</th>' +
+      '<th>Target SKUs</th>' +
+      '<th>Gap</th>' +
+      '</tr></thead><tbody>';
+    rows.forEach(row => {
+      html += '<tr>' +
+        `<td>${row.Category}</td>` +
+        `<td>${row.dtbk}</td>` +
+        `<td>${row.comp}</td>` +
+        `<td>${row.bei}</td>` +
+        `<td>${row.opt}</td>` +
+        `<td>${row.skus}</td>` +
+        `<td>${row.target}</td>` +
+        `<td>${row.gap}</td>` +
+        '</tr>';
+    });
+    html += '</tbody></table>';
+    resultsDiv.innerHTML = html;
+  }
+
+  function drawBarChart(rows) {
+    const labels = rows.map(r => r.Category);
+    const dtData = rows.map(r => parseFloat(r.dtbk));
+    const cpData = rows.map(r => parseFloat(r.comp));
+    const optData = rows.map(r => parseFloat(r.opt));
+    const data = {
+      labels: labels,
+      datasets: [
+        {
+          label: 'DTBK %',
+          data: dtData,
+          backgroundColor: 'rgba(54, 162, 235, 0.5)'
+        },
+        {
+          label: 'Competitor %',
+          data: cpData,
+          backgroundColor: 'rgba(255, 99, 132, 0.5)'
+        },
+        {
+          label: 'Optimised %',
+          data: optData,
+          backgroundColor: 'rgba(75, 192, 192, 0.5)'
+        }
+      ]
+    };
+    const config = {
+      type: 'bar',
+      data: data,
+      options: {
+        responsive: true,
+        scales: {
+          x: { stacked: false },
+          y: {
+            beginAtZero: true,
+            title: {
+              display: true,
+              text: 'Percentage (%)'
+            }
+          }
+        }
+      }
+    };
+    if (chartInstance) {
+      chartInstance.destroy();
+    }
+    chartInstance = new Chart(canvas.getContext('2d'), config);
+  }
+
+  // Autoload defaults on page load
+  async function loadDefaults() {
+    try {
+      const res = await fetch('data/preload_mix.json');
+      if (res.ok) {
+        const preload = await res.json();
+        dtbkMap = preload.dtbk || {};
+        compMap = preload.comp || {};
+        skuMap = preload.skus || {};
+        avgBeiMap = preload.avg_bsi || preload.avgBei || {};
+        if (preload.totalSkus) {
+          totalSkusInput.value = preload.totalSkus;
+        }
+        if (preload.weights) {
+          wtDTBKInput.value = preload.weights.dtbk !== undefined ? preload.weights.dtbk : wtDTBKInput.value;
+          wtCompInput.value = preload.weights.comp !== undefined ? preload.weights.comp : wtCompInput.value;
+          wtBEIInput.value = preload.weights.bei !== undefined ? preload.weights.bei : wtBEIInput.value;
+        }
+      }
+    } catch (err) {
+      console.warn('Could not load defaults:', err);
+    }
+    updateOutputs();
+  }
+
+  loadDefaults();
+})();
